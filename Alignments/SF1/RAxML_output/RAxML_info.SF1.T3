@@ -1,0 +1,47 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file RAxML_bootstrap.SF1.T2 onto tree in file RAxML_bestTree.SF1.T1
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 16 -o AllMis,GalGal -m GTRCAT -p 52657 -f b -t RAxML_bestTree.SF1.T1 -z RAxML_bootstrap.SF1.T2 -n SF1.T3 
+
+
+
+
+Found 1 tree in File RAxML_bestTree.SF1.T1
+
+
+
+Found 150 trees in File RAxML_bootstrap.SF1.T2
+
+
+
+Found 1 tree in File RAxML_bestTree.SF1.T1
+
+
+
+Time for Computation of Bipartitions 0.041396
+Tree with bipartitions written to file:  /home/tgessler/Final_Project/Alignments/SF1/RAxML_bipartitions.SF1.T3
+Tree with bipartitions as branch labels written to file:  /home/tgessler/Final_Project/Alignments/SF1/RAxML_bipartitionsBranchLabels.SF1.T3
+Execution information file written to :  /home/tgessler/Final_Project/Alignments/SF1/RAxML_info.SF1.T3

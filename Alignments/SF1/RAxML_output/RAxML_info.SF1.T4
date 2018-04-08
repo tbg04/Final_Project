@@ -1,0 +1,34 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML consensus tree computation
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 16 -o AllMis,GalGal -m GTRCAT -J T_75 -z RAxML_bootstrap.SF1.T2 -n SF1.T4 
+
+
+
+
+Found 150 trees in File RAxML_bootstrap.SF1.T2
+
+RAxML consensus tree with threshold 75 written to file: /home/tgessler/Final_Project/Alignments/SF1/RAxML_Threshold-75-ConsensusTree.SF1.T4

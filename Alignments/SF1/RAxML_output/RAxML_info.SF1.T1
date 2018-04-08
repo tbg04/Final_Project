@@ -1,0 +1,826 @@
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 306 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.54%
+
+RAxML rapid hill-climbing mode
+
+Using 2 distinct models/data partitions with joint branch length optimization
+
+
+Executing 250 inferences on the original alignment using 250 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 113
+Name: p1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 193
+Name: p2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 16 -o AllMis,GalGal -m GTRGAMMA -p 52657 -s NR5A1_TurtCrocChick_Aligned.phylip -q partition.txt -# 250 -n SF1.T1 
+
+
+Partition: 0 with name: p1
+Base frequencies: 0.310 0.246 0.226 0.218 
+
+Partition: 1 with name: p2
+Base frequencies: 0.091 0.411 0.390 0.108 
+
+Inference[0]: Time 0.638730 GAMMA-based likelihood -5009.081487, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622063 0.830768 0.133171 0.637899 12.418729 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985137 4.016136 1.755397 0.371376 5.682327 1.000000 
+Inference[1]: Time 0.526350 GAMMA-based likelihood -5009.081688, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621975 0.830667 0.133155 0.637787 12.416773 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985175 4.016255 1.755440 0.371396 5.682412 1.000000 
+Inference[2]: Time 0.490308 GAMMA-based likelihood -5009.081770, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621998 0.830694 0.133161 0.637818 12.417492 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985142 4.016141 1.755398 0.371380 5.682318 1.000000 
+Inference[3]: Time 0.488493 GAMMA-based likelihood -5009.081804, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622054 0.830758 0.133171 0.637888 12.418792 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985091 4.015971 1.755326 0.371356 5.682163 1.000000 
+Inference[4]: Time 0.553842 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622059 0.830763 0.133170 0.637893 12.418592 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985120 4.016071 1.755364 0.371370 5.682248 1.000000 
+Inference[5]: Time 0.497983 GAMMA-based likelihood -5009.081721, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622049 0.830751 0.133168 0.637880 12.418399 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985110 4.016032 1.755345 0.371366 5.682202 1.000000 
+Inference[6]: Time 0.479953 GAMMA-based likelihood -5009.082062, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622010 0.830707 0.133163 0.637831 12.417969 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985083 4.015938 1.755307 0.371354 5.682113 1.000000 
+Inference[7]: Time 0.504419 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622026 0.830726 0.133164 0.637852 12.417714 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985186 4.016302 1.755466 0.371399 5.682478 1.000000 
+Inference[8]: Time 0.486526 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622005 0.830700 0.133160 0.637823 12.417509 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985107 4.016016 1.755334 0.371367 5.682166 1.000000 
+Inference[9]: Time 0.496759 GAMMA-based likelihood -5009.081341, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622073 0.830780 0.133173 0.637913 12.418893 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985154 4.016196 1.755425 0.371382 5.682396 1.000000 
+Inference[10]: Time 0.499720 GAMMA-based likelihood -5009.081594, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622065 0.830770 0.133171 0.637901 12.418685 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985118 4.016065 1.755362 0.371369 5.682242 1.000000 
+Inference[11]: Time 0.512374 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622004 0.830700 0.133160 0.637824 12.417266 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985177 4.016261 1.755445 0.371397 5.682424 1.000000 
+Inference[12]: Time 0.504464 GAMMA-based likelihood -5009.081775, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621981 0.830673 0.133156 0.637793 12.416956 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985156 4.016188 1.755412 0.371388 5.682343 1.000000 
+Inference[13]: Time 0.493015 GAMMA-based likelihood -5009.081556, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622066 0.830771 0.133172 0.637903 12.418781 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985124 4.016085 1.755374 0.371370 5.682272 1.000000 
+Inference[14]: Time 0.596351 GAMMA-based likelihood -5009.081982, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621984 0.830675 0.133157 0.637796 12.417112 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985119 4.016058 1.755351 0.371372 5.682207 1.000000 
+Inference[15]: Time 0.487851 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622003 0.830699 0.133160 0.637822 12.417240 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985179 4.016269 1.755449 0.371398 5.682431 1.000000 
+Inference[16]: Time 0.489288 GAMMA-based likelihood -5009.081309, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622040 0.830742 0.133166 0.637870 12.417940 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985187 4.016302 1.755467 0.371399 5.682480 1.000000 
+Inference[17]: Time 0.487552 GAMMA-based likelihood -5009.081584, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622065 0.830773 0.133174 0.637904 12.419078 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985118 4.016072 1.755375 0.371365 5.682286 1.000000 
+Inference[18]: Time 0.497065 GAMMA-based likelihood -5009.081475, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622047 0.830753 0.133170 0.637882 12.418487 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985152 4.016181 1.755422 0.371381 5.682384 1.000000 
+Inference[19]: Time 0.480500 GAMMA-based likelihood -5009.081872, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622015 0.830712 0.133163 0.637837 12.417763 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985112 4.016037 1.755346 0.371368 5.682198 1.000000 
+Inference[20]: Time 0.554460 GAMMA-based likelihood -5009.081845, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622020 0.830717 0.133163 0.637842 12.417871 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985113 4.016040 1.755349 0.371368 5.682205 1.000000 
+Inference[21]: Time 0.488099 GAMMA-based likelihood -5009.081861, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622017 0.830716 0.133165 0.637842 12.418080 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985110 4.016039 1.755354 0.371365 5.682227 1.000000 
+Inference[22]: Time 0.533613 GAMMA-based likelihood -5009.081637, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622030 0.830730 0.133165 0.637857 12.417989 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985139 4.016137 1.755391 0.371379 5.682309 1.000000 
+Inference[23]: Time 0.475912 GAMMA-based likelihood -5009.081522, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622042 0.830744 0.133167 0.637872 12.418244 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985149 4.016174 1.755411 0.371381 5.682357 1.000000 
+Inference[24]: Time 0.479578 GAMMA-based likelihood -5009.081934, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621958 0.830646 0.133152 0.637764 12.416476 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985148 4.016153 1.755394 0.371386 5.682295 1.000000 
+Inference[25]: Time 0.460596 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622059 0.830763 0.133170 0.637894 12.418592 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985120 4.016071 1.755364 0.371370 5.682248 1.000000 
+Inference[26]: Time 0.483399 GAMMA-based likelihood -5009.081615, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622010 0.830706 0.133160 0.637830 12.417435 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985160 4.016203 1.755422 0.371389 5.682365 1.000000 
+Inference[27]: Time 0.526491 GAMMA-based likelihood -5009.081796, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622016 0.830713 0.133162 0.637838 12.417698 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985124 4.016079 1.755363 0.371373 5.682238 1.000000 
+Inference[28]: Time 0.491989 GAMMA-based likelihood -5009.081778, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622009 0.830707 0.133162 0.637832 12.417765 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985132 4.016106 1.755385 0.371375 5.682286 1.000000 
+Inference[29]: Time 0.552331 GAMMA-based likelihood -5009.081809, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621959 0.830646 0.133152 0.637764 12.416343 1.000000 alpha[1]: 1.276104 rates[1] ac ag at cg ct gt: 0.985169 4.016227 1.755423 0.371396 5.682366 1.000000 
+Inference[30]: Time 0.549026 GAMMA-based likelihood -5009.081460, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622073 0.830779 0.133172 0.637912 12.418813 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985134 4.016123 1.755390 0.371375 5.682308 1.000000 
+Inference[31]: Time 0.515154 GAMMA-based likelihood -5009.081688, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622018 0.830718 0.133164 0.637844 12.417865 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985139 4.016135 1.755395 0.371378 5.682315 1.000000 
+Inference[32]: Time 0.511818 GAMMA-based likelihood -5009.081991, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622025 0.830726 0.133166 0.637852 12.418339 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985082 4.015938 1.755310 0.371352 5.682125 1.000000 
+Inference[33]: Time 0.501927 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622067 0.830772 0.133171 0.637903 12.418628 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985131 4.016108 1.755380 0.371375 5.682284 1.000000 
+Inference[34]: Time 0.488211 GAMMA-based likelihood -5009.081857, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622020 0.830718 0.133163 0.637843 12.417845 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985110 4.016031 1.755343 0.371367 5.682192 1.000000 
+Inference[35]: Time 0.576211 GAMMA-based likelihood -5009.081591, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621994 0.830687 0.133158 0.637810 12.417005 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985177 4.016261 1.755442 0.371398 5.682415 1.000000 
+Inference[36]: Time 0.645276 GAMMA-based likelihood -5009.081679, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622062 0.830768 0.133172 0.637899 12.418895 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985105 4.016023 1.755347 0.371362 5.682219 1.000000 
+Inference[37]: Time 0.484234 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622067 0.830772 0.133171 0.637903 12.418628 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985131 4.016108 1.755380 0.371375 5.682284 1.000000 
+Inference[38]: Time 0.549259 GAMMA-based likelihood -5009.081982, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621984 0.830675 0.133157 0.637796 12.417112 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985119 4.016058 1.755351 0.371372 5.682207 1.000000 
+Inference[39]: Time 0.503798 GAMMA-based likelihood -5009.081679, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622052 0.830758 0.133172 0.637888 12.418934 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985112 4.016053 1.755368 0.371362 5.682269 1.000000 
+Inference[40]: Time 0.506282 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622004 0.830700 0.133160 0.637824 12.417266 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985180 4.016273 1.755451 0.371398 5.682437 1.000000 
+Inference[41]: Time 0.488654 GAMMA-based likelihood -5009.081845, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622020 0.830717 0.133163 0.637842 12.417871 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985113 4.016040 1.755349 0.371368 5.682205 1.000000 
+Inference[42]: Time 0.508212 GAMMA-based likelihood -5009.081770, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621998 0.830694 0.133161 0.637818 12.417493 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985142 4.016141 1.755398 0.371380 5.682318 1.000000 
+Inference[43]: Time 0.483579 GAMMA-based likelihood -5009.081545, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622066 0.830771 0.133171 0.637903 12.418679 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985125 4.016090 1.755373 0.371372 5.682269 1.000000 
+Inference[44]: Time 0.578960 GAMMA-based likelihood -5009.081807, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622023 0.830723 0.133166 0.637849 12.418247 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985115 4.016057 1.755364 0.371366 5.682253 1.000000 
+Inference[45]: Time 0.480608 GAMMA-based likelihood -5009.081556, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622066 0.830771 0.133172 0.637903 12.418780 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985124 4.016085 1.755374 0.371370 5.682272 1.000000 
+Inference[46]: Time 0.505422 GAMMA-based likelihood -5009.081479, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622067 0.830773 0.133172 0.637904 12.418718 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985136 4.016128 1.755392 0.371376 5.682313 1.000000 
+Inference[47]: Time 0.498822 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830734 0.133167 0.637861 12.418213 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985152 4.016185 1.755422 0.371382 5.682384 1.000000 
+Inference[48]: Time 0.481526 GAMMA-based likelihood -5009.081452, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622037 0.830738 0.133167 0.637865 12.418143 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985165 4.016231 1.755438 0.371388 5.682419 1.000000 
+Inference[49]: Time 0.494884 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830730 0.133165 0.637857 12.418056 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985130 4.016103 1.755378 0.371374 5.682277 1.000000 
+Inference[50]: Time 0.544782 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622002 0.830699 0.133161 0.637823 12.417534 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985136 4.016119 1.755387 0.371378 5.682291 1.000000 
+Inference[51]: Time 0.505008 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622047 0.830750 0.133169 0.637879 12.418395 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985169 4.016251 1.755449 0.371389 5.682450 1.000000 
+Inference[52]: Time 0.488605 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622061 0.830765 0.133171 0.637896 12.418693 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985129 4.016107 1.755383 0.371373 5.682295 1.000000 
+Inference[53]: Time 0.496913 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622000 0.830694 0.133159 0.637818 12.417297 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985162 4.016207 1.755425 0.371389 5.682371 1.000000 
+Inference[54]: Time 0.547091 GAMMA-based likelihood -5009.081892, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622019 0.830716 0.133163 0.637841 12.417848 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985106 4.016014 1.755335 0.371365 5.682174 1.000000 
+Inference[55]: Time 0.508809 GAMMA-based likelihood -5009.081452, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622037 0.830738 0.133167 0.637865 12.418143 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985165 4.016231 1.755438 0.371388 5.682419 1.000000 
+Inference[56]: Time 0.476390 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622005 0.830700 0.133160 0.637823 12.417509 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985107 4.016016 1.755334 0.371367 5.682166 1.000000 
+Inference[57]: Time 0.479206 GAMMA-based likelihood -5009.081592, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622082 0.830792 0.133176 0.637925 12.419328 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985103 4.016019 1.755351 0.371360 5.682227 1.000000 
+Inference[58]: Time 0.619757 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830734 0.133167 0.637861 12.418213 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985152 4.016185 1.755422 0.371382 5.682384 1.000000 
+Inference[59]: Time 0.587611 GAMMA-based likelihood -5009.081512, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622021 0.830720 0.133163 0.637845 12.417740 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985167 4.016234 1.755439 0.371391 5.682410 1.000000 
+Inference[60]: Time 0.521291 GAMMA-based likelihood -5009.081446, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622017 0.830714 0.133162 0.637839 12.417449 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985182 4.016286 1.755455 0.371399 5.682450 1.000000 
+Inference[61]: Time 0.518380 GAMMA-based likelihood -5009.081421, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622060 0.830766 0.133171 0.637898 12.418647 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985151 4.016179 1.755420 0.371381 5.682377 1.000000 
+Inference[62]: Time 0.550549 GAMMA-based likelihood -5009.081663, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622070 0.830777 0.133174 0.637909 12.419052 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985101 4.016010 1.755344 0.371360 5.682209 1.000000 
+Inference[63]: Time 0.500635 GAMMA-based likelihood -5009.081460, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622073 0.830779 0.133172 0.637912 12.418813 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985134 4.016123 1.755390 0.371375 5.682308 1.000000 
+Inference[64]: Time 0.479933 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622048 0.830752 0.133170 0.637881 12.418709 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985097 4.015992 1.755337 0.371358 5.682188 1.000000 
+Inference[65]: Time 0.465677 GAMMA-based likelihood -5009.081805, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622052 0.830756 0.133171 0.637886 12.418760 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985092 4.015975 1.755327 0.371356 5.682167 1.000000 
+Inference[66]: Time 0.551438 GAMMA-based likelihood -5009.081478, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622067 0.830773 0.133172 0.637904 12.418717 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985136 4.016128 1.755392 0.371376 5.682313 1.000000 
+Inference[67]: Time 0.542883 GAMMA-based likelihood -5009.081605, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621988 0.830681 0.133157 0.637803 12.416968 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985178 4.016270 1.755446 0.371398 5.682428 1.000000 
+Inference[68]: Time 0.498929 GAMMA-based likelihood -5009.081709, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621970 0.830660 0.133154 0.637779 12.416640 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985176 4.016257 1.755440 0.371397 5.682410 1.000000 
+Inference[69]: Time 0.522393 GAMMA-based likelihood -5009.081608, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622052 0.830754 0.133168 0.637883 12.418294 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985127 4.016093 1.755370 0.371374 5.682258 1.000000 
+Inference[70]: Time 0.518172 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622064 0.830768 0.133171 0.637899 12.418576 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985129 4.016102 1.755377 0.371374 5.682276 1.000000 
+Inference[71]: Time 0.515623 GAMMA-based likelihood -5009.081683, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622011 0.830710 0.133163 0.637835 12.417805 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985146 4.016158 1.755409 0.371380 5.682347 1.000000 
+Inference[72]: Time 0.502197 GAMMA-based likelihood -5009.081807, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622023 0.830723 0.133166 0.637849 12.418248 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985115 4.016057 1.755364 0.371366 5.682253 1.000000 
+Inference[73]: Time 0.479215 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622072 0.830778 0.133173 0.637910 12.418874 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985122 4.016080 1.755372 0.371370 5.682266 1.000000 
+Inference[74]: Time 0.487418 GAMMA-based likelihood -5009.081815, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622058 0.830763 0.133172 0.637894 12.418901 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985085 4.015952 1.755317 0.371353 5.682146 1.000000 
+Inference[75]: Time 0.518970 GAMMA-based likelihood -5009.081832, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622052 0.830757 0.133171 0.637887 12.418810 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985087 4.015958 1.755320 0.371354 5.682152 1.000000 
+Inference[76]: Time 0.483670 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622059 0.830764 0.133172 0.637895 12.418879 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985089 4.015966 1.755323 0.371355 5.682158 1.000000 
+Inference[77]: Time 0.476537 GAMMA-based likelihood -5009.081852, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622042 0.830745 0.133169 0.637873 12.418541 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985092 4.015973 1.755326 0.371357 5.682161 1.000000 
+Inference[78]: Time 0.541721 GAMMA-based likelihood -5009.081637, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622030 0.830730 0.133165 0.637857 12.417989 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985139 4.016137 1.755391 0.371379 5.682309 1.000000 
+Inference[79]: Time 0.530403 GAMMA-based likelihood -5009.082062, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622010 0.830707 0.133163 0.637831 12.417969 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985083 4.015938 1.755307 0.371354 5.682113 1.000000 
+Inference[80]: Time 0.510035 GAMMA-based likelihood -5009.081824, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621996 0.830692 0.133160 0.637815 12.417570 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985135 4.016117 1.755391 0.371376 5.682299 1.000000 
+Inference[81]: Time 0.475384 GAMMA-based likelihood -5009.081829, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622019 0.830718 0.133163 0.637844 12.417859 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985116 4.016046 1.755354 0.371369 5.682213 1.000000 
+Inference[82]: Time 0.499126 GAMMA-based likelihood -5009.081861, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621990 0.830685 0.133159 0.637807 12.417256 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985134 4.016106 1.755379 0.371378 5.682268 1.000000 
+Inference[83]: Time 0.517585 GAMMA-based likelihood -5009.082068, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622016 0.830714 0.133164 0.637839 12.418087 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985077 4.015918 1.755297 0.371352 5.682093 1.000000 
+Inference[84]: Time 0.488946 GAMMA-based likelihood -5009.081429, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622019 0.830717 0.133163 0.637843 12.417570 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985183 4.016289 1.755458 0.371398 5.682461 1.000000 
+Inference[85]: Time 0.556140 GAMMA-based likelihood -5009.081341, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622038 0.830738 0.133165 0.637866 12.417828 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985184 4.016288 1.755459 0.371399 5.682458 1.000000 
+Inference[86]: Time 0.470837 GAMMA-based likelihood -5009.081543, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830734 0.133167 0.637861 12.418219 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985153 4.016188 1.755424 0.371382 5.682388 1.000000 
+Inference[87]: Time 0.506099 GAMMA-based likelihood -5009.081693, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622075 0.830783 0.133174 0.637915 12.419129 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985092 4.015978 1.755328 0.371357 5.682172 1.000000 
+Inference[88]: Time 0.480522 GAMMA-based likelihood -5009.081888, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622020 0.830717 0.133163 0.637842 12.417855 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985106 4.016015 1.755335 0.371365 5.682174 1.000000 
+Inference[89]: Time 0.507280 GAMMA-based likelihood -5009.081766, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622030 0.830729 0.133166 0.637856 12.418123 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985118 4.016061 1.755361 0.371369 5.682237 1.000000 
+Inference[90]: Time 0.494647 GAMMA-based likelihood -5009.081938, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622030 0.830731 0.133167 0.637858 12.418418 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985087 4.015957 1.755320 0.371354 5.682147 1.000000 
+Inference[91]: Time 0.554928 GAMMA-based likelihood -5009.081603, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622025 0.830726 0.133166 0.637853 12.418076 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985148 4.016169 1.755413 0.371381 5.682363 1.000000 
+Inference[92]: Time 0.497256 GAMMA-based likelihood -5009.082103, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622009 0.830706 0.133163 0.637830 12.417880 1.000000 alpha[1]: 1.276096 rates[1] ac ag at cg ct gt: 0.985077 4.015914 1.755294 0.371353 5.682080 1.000000 
+Inference[93]: Time 0.490946 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622003 0.830699 0.133160 0.637822 12.417240 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985179 4.016269 1.755449 0.371398 5.682431 1.000000 
+Inference[94]: Time 0.482322 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622047 0.830750 0.133169 0.637879 12.418395 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985169 4.016252 1.755449 0.371389 5.682450 1.000000 
+Inference[95]: Time 0.472349 GAMMA-based likelihood -5009.081831, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622025 0.830723 0.133164 0.637849 12.417950 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985111 4.016035 1.755346 0.371367 5.682199 1.000000 
+Inference[96]: Time 0.496470 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622035 0.830735 0.133166 0.637862 12.418206 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985116 4.016055 1.755358 0.371368 5.682231 1.000000 
+Inference[97]: Time 0.513773 GAMMA-based likelihood -5009.081767, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621987 0.830679 0.133156 0.637801 12.416971 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985153 4.016172 1.755406 0.371387 5.682320 1.000000 
+Inference[98]: Time 0.499603 GAMMA-based likelihood -5009.081917, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621998 0.830693 0.133160 0.637815 12.417458 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985118 4.016057 1.755353 0.371371 5.682216 1.000000 
+Inference[99]: Time 0.517955 GAMMA-based likelihood -5009.081599, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622014 0.830711 0.133161 0.637836 12.417423 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985160 4.016198 1.755418 0.371390 5.682353 1.000000 
+Inference[100]: Time 0.521473 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622042 0.830746 0.133169 0.637874 12.418627 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985098 4.015997 1.755339 0.371358 5.682194 1.000000 
+Inference[101]: Time 0.478395 GAMMA-based likelihood -5009.081564, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622061 0.830765 0.133170 0.637895 12.418581 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985127 4.016096 1.755375 0.371373 5.682274 1.000000 
+Inference[102]: Time 0.489025 GAMMA-based likelihood -5009.081766, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622030 0.830729 0.133166 0.637856 12.418123 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985118 4.016061 1.755361 0.371369 5.682237 1.000000 
+Inference[103]: Time 0.488953 GAMMA-based likelihood -5009.081609, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622076 0.830785 0.133175 0.637918 12.419238 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985105 4.016025 1.755353 0.371360 5.682232 1.000000 
+Inference[104]: Time 0.517479 GAMMA-based likelihood -5009.081842, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622052 0.830756 0.133170 0.637886 12.418691 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985086 4.015951 1.755314 0.371355 5.682134 1.000000 
+Inference[105]: Time 0.561785 GAMMA-based likelihood -5009.081554, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622058 0.830762 0.133170 0.637892 12.418483 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985131 4.016107 1.755380 0.371375 5.682282 1.000000 
+Inference[106]: Time 0.527454 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622005 0.830700 0.133160 0.637823 12.417509 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985107 4.016016 1.755334 0.371367 5.682166 1.000000 
+Inference[107]: Time 0.533815 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830734 0.133167 0.637861 12.418213 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985152 4.016185 1.755422 0.371382 5.682384 1.000000 
+Inference[108]: Time 0.523043 GAMMA-based likelihood -5009.081731, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622017 0.830716 0.133164 0.637842 12.417835 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985134 4.016110 1.755387 0.371376 5.682287 1.000000 
+Inference[109]: Time 0.541390 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622048 0.830752 0.133170 0.637881 12.418709 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985097 4.015992 1.755337 0.371358 5.682188 1.000000 
+Inference[110]: Time 0.489330 GAMMA-based likelihood -5009.081726, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621992 0.830686 0.133158 0.637808 12.417112 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985156 4.016184 1.755411 0.371388 5.682338 1.000000 
+Inference[111]: Time 0.518688 GAMMA-based likelihood -5009.081480, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622027 0.830727 0.133164 0.637853 12.417770 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985168 4.016234 1.755438 0.371392 5.682405 1.000000 
+Inference[112]: Time 0.482598 GAMMA-based likelihood -5009.081584, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621992 0.830686 0.133158 0.637808 12.417074 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985179 4.016272 1.755449 0.371398 5.682434 1.000000 
+Inference[113]: Time 0.485793 GAMMA-based likelihood -5009.081861, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621990 0.830685 0.133159 0.637807 12.417256 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985134 4.016106 1.755379 0.371378 5.682268 1.000000 
+Inference[114]: Time 0.512654 GAMMA-based likelihood -5009.081938, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622030 0.830731 0.133167 0.637858 12.418419 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985087 4.015957 1.755320 0.371354 5.682147 1.000000 
+Inference[115]: Time 0.487560 GAMMA-based likelihood -5009.081736, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621988 0.830680 0.133157 0.637802 12.417007 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985158 4.016190 1.755414 0.371389 5.682343 1.000000 
+Inference[116]: Time 0.462813 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622035 0.830735 0.133166 0.637862 12.418205 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985116 4.016056 1.755358 0.371368 5.682231 1.000000 
+Inference[117]: Time 0.740534 GAMMA-based likelihood -5009.081849, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622043 0.830747 0.133170 0.637875 12.418630 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985091 4.015973 1.755327 0.371356 5.682166 1.000000 
+Inference[118]: Time 0.461735 GAMMA-based likelihood -5009.081469, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622069 0.830775 0.133172 0.637907 12.418826 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985136 4.016130 1.755394 0.371375 5.682321 1.000000 
+Inference[119]: Time 0.540656 GAMMA-based likelihood -5009.081350, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622032 0.830732 0.133165 0.637859 12.417737 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985186 4.016299 1.755464 0.371400 5.682470 1.000000 
+Inference[120]: Time 0.469466 GAMMA-based likelihood -5009.081954, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622025 0.830725 0.133166 0.637851 12.418338 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985089 4.015962 1.755322 0.371355 5.682152 1.000000 
+Inference[121]: Time 0.497210 GAMMA-based likelihood -5009.081757, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622035 0.830738 0.133169 0.637865 12.418546 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985113 4.016054 1.755365 0.371364 5.682260 1.000000 
+Inference[122]: Time 0.489160 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622035 0.830735 0.133166 0.637862 12.418205 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985116 4.016056 1.755358 0.371368 5.682231 1.000000 
+Inference[123]: Time 0.468869 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622058 0.830764 0.133172 0.637895 12.418945 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985095 4.015989 1.755336 0.371357 5.682191 1.000000 
+Inference[124]: Time 0.495562 GAMMA-based likelihood -5009.081666, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621999 0.830693 0.133159 0.637816 12.417271 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985161 4.016202 1.755423 0.371389 5.682365 1.000000 
+Inference[125]: Time 0.499315 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830730 0.133165 0.637857 12.418056 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985130 4.016103 1.755378 0.371374 5.682277 1.000000 
+Inference[126]: Time 0.476215 GAMMA-based likelihood -5009.081565, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622047 0.830748 0.133168 0.637877 12.418293 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985138 4.016135 1.755391 0.371378 5.682311 1.000000 
+Inference[127]: Time 0.509918 GAMMA-based likelihood -5009.081371, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622026 0.830725 0.133164 0.637851 12.417712 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985187 4.016306 1.755467 0.371400 5.682483 1.000000 
+Inference[128]: Time 0.498245 GAMMA-based likelihood -5009.081151, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622063 0.830768 0.133170 0.637899 12.418386 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985194 4.016335 1.755484 0.371401 5.682525 1.000000 
+Inference[129]: Time 0.488255 GAMMA-based likelihood -5009.081371, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622026 0.830725 0.133164 0.637851 12.417712 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985187 4.016306 1.755467 0.371400 5.682483 1.000000 
+Inference[130]: Time 0.522034 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622005 0.830700 0.133160 0.637823 12.417509 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985107 4.016016 1.755334 0.371367 5.682166 1.000000 
+Inference[131]: Time 0.480839 GAMMA-based likelihood -5009.081429, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622019 0.830717 0.133163 0.637843 12.417570 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985183 4.016289 1.755458 0.371398 5.682461 1.000000 
+Inference[132]: Time 0.497083 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622042 0.830746 0.133169 0.637874 12.418627 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985098 4.015997 1.755339 0.371358 5.682194 1.000000 
+Inference[133]: Time 0.485593 GAMMA-based likelihood -5009.081983, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621994 0.830686 0.133159 0.637808 12.417286 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985111 4.016030 1.755338 0.371369 5.682178 1.000000 
+Inference[134]: Time 0.472007 GAMMA-based likelihood -5009.081330, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622038 0.830739 0.133166 0.637867 12.417849 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985185 4.016293 1.755462 0.371399 5.682465 1.000000 
+Inference[135]: Time 0.501056 GAMMA-based likelihood -5009.081754, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622033 0.830732 0.133165 0.637859 12.418028 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985118 4.016059 1.755354 0.371371 5.682221 1.000000 
+Inference[136]: Time 0.486147 GAMMA-based likelihood -5009.081809, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621959 0.830646 0.133152 0.637764 12.416343 1.000000 alpha[1]: 1.276104 rates[1] ac ag at cg ct gt: 0.985169 4.016227 1.755423 0.371396 5.682366 1.000000 
+Inference[137]: Time 0.504311 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622021 0.830719 0.133163 0.637845 12.417649 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985164 4.016217 1.755429 0.371390 5.682384 1.000000 
+Inference[138]: Time 0.512864 GAMMA-based likelihood -5009.081543, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830734 0.133167 0.637861 12.418219 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985153 4.016188 1.755424 0.371382 5.682388 1.000000 
+Inference[139]: Time 0.496418 GAMMA-based likelihood -5009.081872, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622015 0.830712 0.133163 0.637837 12.417763 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985112 4.016037 1.755346 0.371368 5.682198 1.000000 
+Inference[140]: Time 0.498282 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622064 0.830768 0.133171 0.637899 12.418576 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985129 4.016102 1.755377 0.371374 5.682276 1.000000 
+Inference[141]: Time 0.485307 GAMMA-based likelihood -5009.081412, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622065 0.830770 0.133171 0.637901 12.418665 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985149 4.016177 1.755414 0.371381 5.682366 1.000000 
+Inference[142]: Time 0.529507 GAMMA-based likelihood -5009.081396, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622022 0.830721 0.133163 0.637847 12.417605 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985186 4.016300 1.755463 0.371400 5.682472 1.000000 
+Inference[143]: Time 0.507325 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622072 0.830778 0.133173 0.637910 12.418874 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985122 4.016080 1.755372 0.371370 5.682266 1.000000 
+Inference[144]: Time 0.480285 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622000 0.830694 0.133159 0.637818 12.417297 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985162 4.016207 1.755425 0.371389 5.682371 1.000000 
+Inference[145]: Time 0.536152 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622004 0.830701 0.133162 0.637826 12.417580 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985134 4.016112 1.755384 0.371377 5.682285 1.000000 
+Inference[146]: Time 0.466411 GAMMA-based likelihood -5009.081660, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622058 0.830764 0.133173 0.637895 12.419030 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985111 4.016048 1.755365 0.371362 5.682263 1.000000 
+Inference[147]: Time 0.472764 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622058 0.830764 0.133172 0.637895 12.418945 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985095 4.015989 1.755336 0.371357 5.682191 1.000000 
+Inference[148]: Time 0.472754 GAMMA-based likelihood -5009.081767, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622048 0.830752 0.133170 0.637881 12.418753 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985101 4.016011 1.755344 0.371359 5.682212 1.000000 
+Inference[149]: Time 0.470304 GAMMA-based likelihood -5009.081773, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622009 0.830707 0.133162 0.637832 12.417772 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985133 4.016110 1.755387 0.371375 5.682290 1.000000 
+Inference[150]: Time 0.576954 GAMMA-based likelihood -5009.081397, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622045 0.830746 0.133166 0.637875 12.418073 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985169 4.016237 1.755440 0.371391 5.682411 1.000000 
+Inference[151]: Time 0.476606 GAMMA-based likelihood -5009.081970, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622032 0.830733 0.133167 0.637860 12.418284 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985080 4.015928 1.755301 0.371354 5.682100 1.000000 
+Inference[152]: Time 0.537459 GAMMA-based likelihood -5009.081938, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622030 0.830731 0.133167 0.637858 12.418418 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985087 4.015957 1.755320 0.371354 5.682147 1.000000 
+Inference[153]: Time 0.502581 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622059 0.830763 0.133170 0.637893 12.418592 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985120 4.016071 1.755364 0.371370 5.682248 1.000000 
+Inference[154]: Time 0.478838 GAMMA-based likelihood -5009.082046, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621987 0.830679 0.133158 0.637800 12.417250 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985105 4.016010 1.755331 0.371366 5.682161 1.000000 
+Inference[155]: Time 0.493957 GAMMA-based likelihood -5009.081421, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622020 0.830718 0.133163 0.637843 12.417567 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985184 4.016293 1.755459 0.371399 5.682464 1.000000 
+Inference[156]: Time 0.480196 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622023 0.830722 0.133164 0.637847 12.417946 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985136 4.016126 1.755388 0.371376 5.682302 1.000000 
+Inference[157]: Time 0.490624 GAMMA-based likelihood -5009.081350, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622032 0.830732 0.133165 0.637859 12.417737 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985186 4.016299 1.755464 0.371400 5.682470 1.000000 
+Inference[158]: Time 0.523756 GAMMA-based likelihood -5009.081688, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622016 0.830715 0.133164 0.637841 12.417983 1.000000 alpha[1]: 1.276096 rates[1] ac ag at cg ct gt: 0.985141 4.016144 1.755405 0.371377 5.682339 1.000000 
+Inference[159]: Time 0.482055 GAMMA-based likelihood -5009.081820, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621958 0.830645 0.133151 0.637763 12.416314 1.000000 alpha[1]: 1.276104 rates[1] ac ag at cg ct gt: 0.985168 4.016223 1.755421 0.371395 5.682360 1.000000 
+Inference[160]: Time 0.527496 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622042 0.830746 0.133169 0.637874 12.418627 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985098 4.015997 1.755339 0.371358 5.682194 1.000000 
+Inference[161]: Time 0.490662 GAMMA-based likelihood -5009.081617, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622062 0.830766 0.133171 0.637897 12.418631 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985117 4.016059 1.755360 0.371369 5.682235 1.000000 
+Inference[162]: Time 0.495016 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622058 0.830764 0.133172 0.637895 12.418945 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985095 4.015989 1.755336 0.371357 5.682191 1.000000 
+Inference[163]: Time 0.505382 GAMMA-based likelihood -5009.081634, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622056 0.830760 0.133170 0.637890 12.418540 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985119 4.016065 1.755362 0.371369 5.682241 1.000000 
+Inference[164]: Time 0.507527 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622005 0.830702 0.133161 0.637826 12.417655 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985132 4.016108 1.755384 0.371375 5.682283 1.000000 
+Inference[165]: Time 0.568172 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622072 0.830778 0.133173 0.637910 12.418874 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985122 4.016080 1.755372 0.371370 5.682266 1.000000 
+Inference[166]: Time 0.484527 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622058 0.830764 0.133172 0.637895 12.418945 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985095 4.015989 1.755336 0.371357 5.682191 1.000000 
+Inference[167]: Time 0.492084 GAMMA-based likelihood -5009.081395, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622078 0.830786 0.133174 0.637919 12.419063 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985140 4.016149 1.755406 0.371376 5.682351 1.000000 
+Inference[168]: Time 0.546445 GAMMA-based likelihood -5009.081339, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622033 0.830733 0.133165 0.637860 12.417758 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985188 4.016304 1.755466 0.371400 5.682476 1.000000 
+Inference[169]: Time 0.526549 GAMMA-based likelihood -5009.081736, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621988 0.830680 0.133157 0.637802 12.417007 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985158 4.016190 1.755414 0.371389 5.682343 1.000000 
+Inference[170]: Time 0.489552 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622000 0.830694 0.133159 0.637818 12.417297 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985162 4.016207 1.755425 0.371389 5.682371 1.000000 
+Inference[171]: Time 0.499226 GAMMA-based likelihood -5009.082053, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622021 0.830720 0.133165 0.637845 12.418168 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985076 4.015912 1.755295 0.371351 5.682087 1.000000 
+Inference[172]: Time 0.506814 GAMMA-based likelihood -5009.081357, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622046 0.830749 0.133167 0.637878 12.418200 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985174 4.016258 1.755454 0.371392 5.682445 1.000000 
+Inference[173]: Time 0.509052 GAMMA-based likelihood -5009.081930, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621989 0.830683 0.133159 0.637805 12.417345 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985123 4.016070 1.755366 0.371372 5.682237 1.000000 
+Inference[174]: Time 0.493879 GAMMA-based likelihood -5009.081929, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621987 0.830680 0.133158 0.637802 12.417299 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985125 4.016077 1.755370 0.371373 5.682244 1.000000 
+Inference[175]: Time 0.696817 GAMMA-based likelihood -5009.081689, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622070 0.830778 0.133174 0.637910 12.419102 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985096 4.015993 1.755337 0.371358 5.682193 1.000000 
+Inference[176]: Time 0.515379 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622042 0.830746 0.133169 0.637874 12.418627 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985098 4.015997 1.755339 0.371358 5.682194 1.000000 
+Inference[177]: Time 0.488148 GAMMA-based likelihood -5009.081699, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622070 0.830777 0.133173 0.637909 12.418985 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985095 4.015986 1.755331 0.371358 5.682176 1.000000 
+Inference[178]: Time 0.485931 GAMMA-based likelihood -5009.081479, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622067 0.830773 0.133172 0.637904 12.418718 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985136 4.016128 1.755392 0.371376 5.682313 1.000000 
+Inference[179]: Time 0.499350 GAMMA-based likelihood -5009.081683, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622011 0.830710 0.133163 0.637835 12.417805 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985146 4.016158 1.755409 0.371380 5.682347 1.000000 
+Inference[180]: Time 0.489856 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622061 0.830765 0.133170 0.637895 12.418531 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985132 4.016114 1.755382 0.371375 5.682289 1.000000 
+Inference[181]: Time 0.524255 GAMMA-based likelihood -5009.081511, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622039 0.830743 0.133168 0.637871 12.418286 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985152 4.016182 1.755421 0.371382 5.682378 1.000000 
+Inference[182]: Time 0.499469 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830730 0.133165 0.637857 12.418056 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985130 4.016103 1.755378 0.371374 5.682277 1.000000 
+Inference[183]: Time 0.548780 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622067 0.830772 0.133171 0.637903 12.418628 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985131 4.016108 1.755380 0.371375 5.682284 1.000000 
+Inference[184]: Time 0.490719 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622048 0.830752 0.133170 0.637881 12.418709 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985097 4.015992 1.755337 0.371358 5.682188 1.000000 
+Inference[185]: Time 0.490529 GAMMA-based likelihood -5009.081729, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622024 0.830722 0.133164 0.637848 12.417964 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985129 4.016101 1.755377 0.371374 5.682275 1.000000 
+Inference[186]: Time 0.531230 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622048 0.830752 0.133170 0.637881 12.418709 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985097 4.015992 1.755337 0.371358 5.682188 1.000000 
+Inference[187]: Time 0.494919 GAMMA-based likelihood -5009.081467, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622019 0.830716 0.133162 0.637842 12.417393 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985178 4.016263 1.755444 0.371398 5.682418 1.000000 
+Inference[188]: Time 0.494344 GAMMA-based likelihood -5009.081798, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622026 0.830724 0.133164 0.637850 12.417874 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985116 4.016051 1.755350 0.371370 5.682209 1.000000 
+Inference[189]: Time 0.494379 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622004 0.830700 0.133160 0.637824 12.417266 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985180 4.016273 1.755451 0.371398 5.682437 1.000000 
+Inference[190]: Time 0.511218 GAMMA-based likelihood -5009.081672, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622055 0.830758 0.133169 0.637888 12.418440 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985113 4.016044 1.755350 0.371368 5.682211 1.000000 
+Inference[191]: Time 0.534851 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622008 0.830703 0.133160 0.637828 12.417303 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985156 4.016182 1.755409 0.371388 5.682332 1.000000 
+Inference[192]: Time 0.545074 GAMMA-based likelihood -5009.081412, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622065 0.830770 0.133171 0.637901 12.418665 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985149 4.016177 1.755414 0.371381 5.682366 1.000000 
+Inference[193]: Time 0.508012 GAMMA-based likelihood -5009.081609, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622076 0.830785 0.133175 0.637918 12.419238 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985105 4.016025 1.755353 0.371360 5.682232 1.000000 
+Inference[194]: Time 0.540787 GAMMA-based likelihood -5009.081534, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622017 0.830715 0.133162 0.637840 12.417629 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985167 4.016232 1.755436 0.371391 5.682403 1.000000 
+Inference[195]: Time 0.533944 GAMMA-based likelihood -5009.081666, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621999 0.830693 0.133159 0.637816 12.417271 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985161 4.016202 1.755423 0.371389 5.682365 1.000000 
+Inference[196]: Time 0.488287 GAMMA-based likelihood -5009.081739, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621970 0.830659 0.133154 0.637779 12.416605 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985172 4.016239 1.755432 0.371396 5.682388 1.000000 
+Inference[197]: Time 0.493073 GAMMA-based likelihood -5009.081857, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622020 0.830718 0.133163 0.637843 12.417845 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985110 4.016031 1.755343 0.371367 5.682191 1.000000 
+Inference[198]: Time 0.488998 GAMMA-based likelihood -5009.081479, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622050 0.830755 0.133170 0.637885 12.418483 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985149 4.016170 1.755417 0.371381 5.682368 1.000000 
+Inference[199]: Time 0.514085 GAMMA-based likelihood -5009.081954, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622025 0.830725 0.133166 0.637851 12.418338 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985089 4.015962 1.755322 0.371355 5.682152 1.000000 
+Inference[200]: Time 0.511251 GAMMA-based likelihood -5009.081689, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622050 0.830752 0.133168 0.637881 12.418348 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985115 4.016050 1.755352 0.371369 5.682217 1.000000 
+Inference[201]: Time 0.518257 GAMMA-based likelihood -5009.081709, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621970 0.830660 0.133154 0.637779 12.416640 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985176 4.016257 1.755440 0.371397 5.682410 1.000000 
+Inference[202]: Time 0.496401 GAMMA-based likelihood -5009.081584, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621992 0.830686 0.133158 0.637808 12.417074 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985179 4.016272 1.755449 0.371398 5.682434 1.000000 
+Inference[203]: Time 0.520489 GAMMA-based likelihood -5009.081885, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622047 0.830751 0.133170 0.637880 12.418654 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985083 4.015939 1.755309 0.371353 5.682124 1.000000 
+Inference[204]: Time 0.479203 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622021 0.830719 0.133163 0.637845 12.417649 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985164 4.016217 1.755429 0.371390 5.682384 1.000000 
+Inference[205]: Time 0.477076 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622002 0.830699 0.133161 0.637823 12.417534 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985136 4.016119 1.755387 0.371378 5.682291 1.000000 
+Inference[206]: Time 0.480252 GAMMA-based likelihood -5009.081813, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622021 0.830718 0.133163 0.637843 12.417792 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985118 4.016056 1.755353 0.371371 5.682215 1.000000 
+Inference[207]: Time 0.497782 GAMMA-based likelihood -5009.081991, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622025 0.830726 0.133166 0.637852 12.418339 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985082 4.015938 1.755310 0.371352 5.682125 1.000000 
+Inference[208]: Time 0.524232 GAMMA-based likelihood -5009.081773, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622009 0.830707 0.133162 0.637832 12.417772 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985133 4.016110 1.755387 0.371375 5.682290 1.000000 
+Inference[209]: Time 0.506904 GAMMA-based likelihood -5009.081897, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621984 0.830678 0.133158 0.637800 12.417293 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985132 4.016104 1.755382 0.371376 5.682277 1.000000 
+Inference[210]: Time 0.490323 GAMMA-based likelihood -5009.081652, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622020 0.830720 0.133164 0.637846 12.417892 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985144 4.016151 1.755402 0.371380 5.682333 1.000000 
+Inference[211]: Time 0.482151 GAMMA-based likelihood -5009.081726, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622042 0.830745 0.133169 0.637873 12.418541 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985113 4.016052 1.755362 0.371365 5.682248 1.000000 
+Inference[212]: Time 0.479477 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622004 0.830700 0.133160 0.637824 12.417266 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985180 4.016273 1.755451 0.371398 5.682437 1.000000 
+Inference[213]: Time 0.503617 GAMMA-based likelihood -5009.081633, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622025 0.830725 0.133165 0.637852 12.418001 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985143 4.016150 1.755403 0.371379 5.682335 1.000000 
+Inference[214]: Time 0.473098 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622059 0.830763 0.133170 0.637893 12.418592 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985120 4.016071 1.755364 0.371370 5.682248 1.000000 
+Inference[215]: Time 0.466234 GAMMA-based likelihood -5009.081460, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622073 0.830779 0.133172 0.637912 12.418813 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985134 4.016123 1.755389 0.371375 5.682308 1.000000 
+Inference[216]: Time 0.520053 GAMMA-based likelihood -5009.081506, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622045 0.830749 0.133169 0.637879 12.418537 1.000000 alpha[1]: 1.276096 rates[1] ac ag at cg ct gt: 0.985149 4.016172 1.755422 0.371379 5.682380 1.000000 
+Inference[217]: Time 0.478085 GAMMA-based likelihood -5009.081832, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622052 0.830757 0.133171 0.637887 12.418810 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985087 4.015958 1.755320 0.371354 5.682152 1.000000 
+Inference[218]: Time 0.486384 GAMMA-based likelihood -5009.081796, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622016 0.830713 0.133162 0.637838 12.417698 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985124 4.016079 1.755363 0.371373 5.682238 1.000000 
+Inference[219]: Time 0.551167 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622057 0.830763 0.133171 0.637893 12.418850 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985090 4.015970 1.755324 0.371356 5.682162 1.000000 
+Inference[220]: Time 0.506582 GAMMA-based likelihood -5009.081554, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622058 0.830762 0.133170 0.637892 12.418483 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985131 4.016108 1.755380 0.371375 5.682282 1.000000 
+Inference[221]: Time 0.489945 GAMMA-based likelihood -5009.081550, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622004 0.830699 0.133160 0.637823 12.417241 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985176 4.016257 1.755443 0.371396 5.682418 1.000000 
+Inference[222]: Time 0.498318 GAMMA-based likelihood -5009.082068, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622016 0.830714 0.133164 0.637839 12.418087 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985077 4.015918 1.755297 0.371352 5.682093 1.000000 
+Inference[223]: Time 0.498187 GAMMA-based likelihood -5009.081564, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622061 0.830765 0.133170 0.637895 12.418581 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985127 4.016096 1.755375 0.371373 5.682274 1.000000 
+Inference[224]: Time 0.554633 GAMMA-based likelihood -5009.081757, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622035 0.830738 0.133169 0.637865 12.418546 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985113 4.016054 1.755365 0.371364 5.682260 1.000000 
+Inference[225]: Time 0.479905 GAMMA-based likelihood -5009.081805, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622052 0.830756 0.133171 0.637886 12.418760 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985092 4.015975 1.755327 0.371356 5.682167 1.000000 
+Inference[226]: Time 0.476314 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622067 0.830772 0.133171 0.637903 12.418628 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985131 4.016108 1.755380 0.371375 5.682284 1.000000 
+Inference[227]: Time 0.536165 GAMMA-based likelihood -5009.081733, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622031 0.830730 0.133165 0.637857 12.418042 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985123 4.016077 1.755365 0.371372 5.682247 1.000000 
+Inference[228]: Time 0.554536 GAMMA-based likelihood -5009.081592, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622082 0.830792 0.133176 0.637925 12.419328 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985103 4.016019 1.755351 0.371360 5.682227 1.000000 
+Inference[229]: Time 0.511713 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622035 0.830735 0.133166 0.637862 12.418206 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985116 4.016055 1.755358 0.371368 5.682231 1.000000 
+Inference[230]: Time 0.491036 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622003 0.830699 0.133160 0.637822 12.417240 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985179 4.016269 1.755449 0.371398 5.682431 1.000000 
+Inference[231]: Time 0.490924 GAMMA-based likelihood -5009.081698, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622035 0.830734 0.133166 0.637861 12.418050 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985126 4.016087 1.755368 0.371374 5.682253 1.000000 
+Inference[232]: Time 0.526932 GAMMA-based likelihood -5009.081641, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621985 0.830678 0.133157 0.637799 12.416932 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985175 4.016256 1.755439 0.371396 5.682413 1.000000 
+Inference[233]: Time 0.575034 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622026 0.830726 0.133164 0.637852 12.417714 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985186 4.016302 1.755466 0.371399 5.682478 1.000000 
+Inference[234]: Time 0.496554 GAMMA-based likelihood -5009.081766, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622030 0.830729 0.133166 0.637856 12.418123 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985118 4.016061 1.755361 0.371369 5.682237 1.000000 
+Inference[235]: Time 0.478789 GAMMA-based likelihood -5009.081824, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.621996 0.830692 0.133160 0.637815 12.417570 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985135 4.016117 1.755391 0.371376 5.682299 1.000000 
+Inference[236]: Time 0.496029 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.622004 0.830700 0.133160 0.637824 12.417266 1.000000 alpha[1]: 1.276102 rates[1] ac ag at cg ct gt: 0.985180 4.016273 1.755451 0.371398 5.682437 1.000000 
+Inference[237]: Time 0.530255 GAMMA-based likelihood -5009.081214, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622051 0.830755 0.133168 0.637884 12.418188 1.000000 alpha[1]: 1.276100 rates[1] ac ag at cg ct gt: 0.985193 4.016328 1.755482 0.371401 5.682517 1.000000 
+Inference[238]: Time 0.522217 GAMMA-based likelihood -5009.081674, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622036 0.830736 0.133166 0.637864 12.418140 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985128 4.016098 1.755376 0.371374 5.682271 1.000000 
+Inference[239]: Time 0.503539 GAMMA-based likelihood -5009.081615, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622010 0.830706 0.133160 0.637830 12.417436 1.000000 alpha[1]: 1.276101 rates[1] ac ag at cg ct gt: 0.985160 4.016203 1.755422 0.371389 5.682365 1.000000 
+Inference[240]: Time 0.515964 GAMMA-based likelihood -5009.082047, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622015 0.830713 0.133164 0.637838 12.418049 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985081 4.015933 1.755305 0.371354 5.682108 1.000000 
+Inference[241]: Time 0.508037 GAMMA-based likelihood -5009.081779, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622009 0.830707 0.133162 0.637832 12.417765 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985132 4.016106 1.755385 0.371375 5.682286 1.000000 
+Inference[242]: Time 0.517458 GAMMA-based likelihood -5009.081566, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622027 0.830728 0.133166 0.637855 12.418101 1.000000 alpha[1]: 1.276097 rates[1] ac ag at cg ct gt: 0.985152 4.016186 1.755421 0.371382 5.682381 1.000000 
+Inference[243]: Time 0.527678 GAMMA-based likelihood -5009.082062, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622010 0.830707 0.133163 0.637831 12.417969 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985083 4.015938 1.755307 0.371354 5.682113 1.000000 
+Inference[244]: Time 0.498134 GAMMA-based likelihood -5009.081606, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622071 0.830780 0.133174 0.637912 12.419140 1.000000 alpha[1]: 1.276093 rates[1] ac ag at cg ct gt: 0.985109 4.016040 1.755359 0.371362 5.682248 1.000000 
+Inference[245]: Time 0.496497 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622058 0.830764 0.133172 0.637895 12.418945 1.000000 alpha[1]: 1.276094 rates[1] ac ag at cg ct gt: 0.985095 4.015989 1.755336 0.371357 5.682191 1.000000 
+Inference[246]: Time 0.500929 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622059 0.830763 0.133170 0.637894 12.418592 1.000000 alpha[1]: 1.276098 rates[1] ac ag at cg ct gt: 0.985120 4.016071 1.755364 0.371370 5.682248 1.000000 
+Inference[247]: Time 0.495958 GAMMA-based likelihood -5009.081954, best rearrangement setting 5
+alpha[0]: 0.096118 rates[0] ac ag at cg ct gt: 0.622025 0.830725 0.133166 0.637851 12.418338 1.000000 alpha[1]: 1.276095 rates[1] ac ag at cg ct gt: 0.985089 4.015962 1.755322 0.371355 5.682152 1.000000 
+Inference[248]: Time 0.497250 GAMMA-based likelihood -5009.081640, best rearrangement setting 5
+alpha[0]: 0.096119 rates[0] ac ag at cg ct gt: 0.622045 0.830747 0.133168 0.637876 12.418350 1.000000 alpha[1]: 1.276099 rates[1] ac ag at cg ct gt: 0.985126 4.016094 1.755373 0.371373 5.682271 1.000000 
+Inference[249]: Time 0.504486 GAMMA-based likelihood -5009.081739, best rearrangement setting 5
+alpha[0]: 0.096120 rates[0] ac ag at cg ct gt: 0.621970 0.830659 0.133154 0.637779 12.416605 1.000000 alpha[1]: 1.276103 rates[1] ac ag at cg ct gt: 0.985172 4.016239 1.755432 0.371396 5.682388 1.000000 
+
+
+Conducting final model optimizations on all 250 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.0
+Inference[1] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.1
+Inference[2] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.2
+Inference[3] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.3
+Inference[4] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.4
+Inference[5] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.5
+Inference[6] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.6
+Inference[7] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.7
+Inference[8] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.8
+Inference[9] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.9
+Inference[10] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.10
+Inference[11] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.11
+Inference[12] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.12
+Inference[13] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.13
+Inference[14] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.14
+Inference[15] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.15
+Inference[16] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.16
+Inference[17] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.17
+Inference[18] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.18
+Inference[19] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.19
+Inference[20] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.20
+Inference[21] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.21
+Inference[22] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.22
+Inference[23] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.23
+Inference[24] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.24
+Inference[25] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.25
+Inference[26] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.26
+Inference[27] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.27
+Inference[28] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.28
+Inference[29] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.29
+Inference[30] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.30
+Inference[31] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.31
+Inference[32] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.32
+Inference[33] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.33
+Inference[34] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.34
+Inference[35] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.35
+Inference[36] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.36
+Inference[37] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.37
+Inference[38] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.38
+Inference[39] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.39
+Inference[40] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.40
+Inference[41] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.41
+Inference[42] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.42
+Inference[43] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.43
+Inference[44] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.44
+Inference[45] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.45
+Inference[46] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.46
+Inference[47] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.47
+Inference[48] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.48
+Inference[49] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.49
+Inference[50] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.50
+Inference[51] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.51
+Inference[52] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.52
+Inference[53] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.53
+Inference[54] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.54
+Inference[55] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.55
+Inference[56] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.56
+Inference[57] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.57
+Inference[58] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.58
+Inference[59] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.59
+Inference[60] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.60
+Inference[61] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.61
+Inference[62] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.62
+Inference[63] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.63
+Inference[64] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.64
+Inference[65] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.65
+Inference[66] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.66
+Inference[67] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.67
+Inference[68] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.68
+Inference[69] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.69
+Inference[70] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.70
+Inference[71] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.71
+Inference[72] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.72
+Inference[73] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.73
+Inference[74] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.74
+Inference[75] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.75
+Inference[76] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.76
+Inference[77] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.77
+Inference[78] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.78
+Inference[79] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.79
+Inference[80] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.80
+Inference[81] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.81
+Inference[82] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.82
+Inference[83] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.83
+Inference[84] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.84
+Inference[85] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.85
+Inference[86] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.86
+Inference[87] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.87
+Inference[88] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.88
+Inference[89] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.89
+Inference[90] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.90
+Inference[91] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.91
+Inference[92] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.92
+Inference[93] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.93
+Inference[94] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.94
+Inference[95] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.95
+Inference[96] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.96
+Inference[97] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.97
+Inference[98] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.98
+Inference[99] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.99
+Inference[100] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.100
+Inference[101] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.101
+Inference[102] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.102
+Inference[103] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.103
+Inference[104] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.104
+Inference[105] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.105
+Inference[106] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.106
+Inference[107] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.107
+Inference[108] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.108
+Inference[109] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.109
+Inference[110] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.110
+Inference[111] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.111
+Inference[112] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.112
+Inference[113] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.113
+Inference[114] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.114
+Inference[115] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.115
+Inference[116] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.116
+Inference[117] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.117
+Inference[118] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.118
+Inference[119] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.119
+Inference[120] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.120
+Inference[121] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.121
+Inference[122] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.122
+Inference[123] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.123
+Inference[124] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.124
+Inference[125] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.125
+Inference[126] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.126
+Inference[127] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.127
+Inference[128] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.128
+Inference[129] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.129
+Inference[130] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.130
+Inference[131] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.131
+Inference[132] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.132
+Inference[133] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.133
+Inference[134] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.134
+Inference[135] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.135
+Inference[136] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.136
+Inference[137] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.137
+Inference[138] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.138
+Inference[139] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.139
+Inference[140] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.140
+Inference[141] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.141
+Inference[142] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.142
+Inference[143] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.143
+Inference[144] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.144
+Inference[145] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.145
+Inference[146] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.146
+Inference[147] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.147
+Inference[148] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.148
+Inference[149] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.149
+Inference[150] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.150
+Inference[151] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.151
+Inference[152] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.152
+Inference[153] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.153
+Inference[154] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.154
+Inference[155] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.155
+Inference[156] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.156
+Inference[157] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.157
+Inference[158] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.158
+Inference[159] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.159
+Inference[160] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.160
+Inference[161] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.161
+Inference[162] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.162
+Inference[163] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.163
+Inference[164] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.164
+Inference[165] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.165
+Inference[166] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.166
+Inference[167] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.167
+Inference[168] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.168
+Inference[169] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.169
+Inference[170] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.170
+Inference[171] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.171
+Inference[172] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.172
+Inference[173] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.173
+Inference[174] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.174
+Inference[175] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.175
+Inference[176] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.176
+Inference[177] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.177
+Inference[178] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.178
+Inference[179] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.179
+Inference[180] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.180
+Inference[181] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.181
+Inference[182] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.182
+Inference[183] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.183
+Inference[184] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.184
+Inference[185] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.185
+Inference[186] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.186
+Inference[187] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.187
+Inference[188] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.188
+Inference[189] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.189
+Inference[190] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.190
+Inference[191] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.191
+Inference[192] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.192
+Inference[193] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.193
+Inference[194] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.194
+Inference[195] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.195
+Inference[196] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.196
+Inference[197] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.197
+Inference[198] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.198
+Inference[199] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.199
+Inference[200] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.200
+Inference[201] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.201
+Inference[202] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.202
+Inference[203] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.203
+Inference[204] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.204
+Inference[205] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.205
+Inference[206] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.206
+Inference[207] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.207
+Inference[208] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.208
+Inference[209] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.209
+Inference[210] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.210
+Inference[211] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.211
+Inference[212] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.212
+Inference[213] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.213
+Inference[214] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.214
+Inference[215] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.215
+Inference[216] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.216
+Inference[217] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.217
+Inference[218] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.218
+Inference[219] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.219
+Inference[220] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.220
+Inference[221] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.221
+Inference[222] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.222
+Inference[223] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.223
+Inference[224] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.224
+Inference[225] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.225
+Inference[226] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.226
+Inference[227] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.227
+Inference[228] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.228
+Inference[229] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.229
+Inference[230] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.230
+Inference[231] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.231
+Inference[232] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.232
+Inference[233] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.233
+Inference[234] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.234
+Inference[235] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.235
+Inference[236] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.236
+Inference[237] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.237
+Inference[238] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.238
+Inference[239] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.239
+Inference[240] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.240
+Inference[241] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.241
+Inference[242] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.242
+Inference[243] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.243
+Inference[244] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.244
+Inference[245] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.245
+Inference[246] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.246
+Inference[247] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.247
+Inference[248] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.248
+Inference[249] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.249
+
+
+Starting final GAMMA-based thorough Optimization on tree 128 likelihood -5007.562448 .... 
+
+Final GAMMA-based Score of best tree -5007.562448
+
+Program execution info written to /home/tgessler/Final_Project/Alignments/SF1/RAxML_info.SF1.T1
+Best-scoring ML tree written to: /home/tgessler/Final_Project/Alignments/SF1/RAxML_bestTree.SF1.T1
+
+Overall execution time: 135.428901 secs or 0.037619 hours or 0.001567 days
+

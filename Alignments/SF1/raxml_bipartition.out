@@ -1,0 +1,111 @@
+
+   Module name: openmpi                    Version: 3.0.0               
+
+       Contact: researchit@iastate.edu
+      Homepage: http://www.open-mpi.org/                                
+      Download: http://www.open-mpi.org/software/                       
+          Help: Documentation is available online at http://www.open-mpi.org or as a set of UNIX man pages.
+         Notes: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available.
+
+
+   Module name: raxml                      Version: 8.2.9               
+
+       Contact: researchit@iastate.edu
+      Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html
+      Download: https://github.com/stamatak/standard-RAxML              
+          Help: Documentation can be found online at http://sco.h-its.org/exelixis/web/software/raxml/index.html#documentation.
+         Notes: RAxML (Randomized Axelerated Maximum Likelihood) is a program for sequential and parallel Maximum Likelihood based inference of large phylogenetic trees. It can also be used for post-analysis of sets of phylogenetic trees, analysis of alignments and, evolutionary placement of short reads. This module contains the mpi executables along with the pthread executables. They are named accordingly.
+
+Found a total of 12 taxa in first tree of tree collection RAxML_bootstrap.SF1.T2
+Expecting all remaining trees in collection to have the same taxon set
+add [EmyMac]
+add [PodExp]
+add [CarIns]
+add [CheMyd]
+add [TraScr]
+add [ChrPic]
+add [GlyIns]
+add [StaTri]
+add [ApaSpi]
+add [PelSin]
+add [GalGal]
+add [AllMis]
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 3
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 4
+
+This is RAxML Worker Pthread Number: 5
+
+This is RAxML Worker Pthread Number: 6
+
+This is RAxML Worker Pthread Number: 7
+
+This is RAxML Worker Pthread Number: 8
+
+This is RAxML Worker Pthread Number: 9
+
+This is RAxML Worker Pthread Number: 10
+
+This is RAxML Worker Pthread Number: 12
+
+This is RAxML Worker Pthread Number: 11
+
+This is RAxML Worker Pthread Number: 13
+
+This is RAxML Worker Pthread Number: 14
+
+This is RAxML Worker Pthread Number: 15
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file RAxML_bootstrap.SF1.T2 onto tree in file RAxML_bestTree.SF1.T1
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 16 -o AllMis,GalGal -m GTRCAT -p 52657 -f b -t RAxML_bestTree.SF1.T1 -z RAxML_bootstrap.SF1.T2 -n SF1.T3 
+
+
+
+
+Found 1 tree in File RAxML_bestTree.SF1.T1
+
+
+
+Found 150 trees in File RAxML_bootstrap.SF1.T2
+
+
+
+Found 1 tree in File RAxML_bestTree.SF1.T1
+
+
+
+Time for Computation of Bipartitions 0.041396
+Tree with bipartitions written to file:  /home/tgessler/Final_Project/Alignments/SF1/RAxML_bipartitions.SF1.T3
+Tree with bipartitions as branch labels written to file:  /home/tgessler/Final_Project/Alignments/SF1/RAxML_bipartitionsBranchLabels.SF1.T3
+Execution information file written to :  /home/tgessler/Final_Project/Alignments/SF1/RAxML_info.SF1.T3

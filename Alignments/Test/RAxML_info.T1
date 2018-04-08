@@ -1,0 +1,129 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 198 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 1.91%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 20 inferences on the original alignment using 20 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 198
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T2 -m GTRGAMMA -p12345 -s WT1_TurtCrocChick_Aligned.phylip -# 20 -n T1 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.258 0.318 0.238 0.186 
+
+Inference[0]: Time 0.421632 GAMMA-based likelihood -3831.163019, best rearrangement setting 5
+alpha[0]: 0.223537 rates[0] ac ag at cg ct gt: 0.728302 3.756297 0.316361 2.339194 3.187313 1.000000 
+Inference[1]: Time 0.303170 GAMMA-based likelihood -3831.156363, best rearrangement setting 5
+alpha[0]: 0.223682 rates[0] ac ag at cg ct gt: 0.704316 3.625875 0.303826 2.245623 3.062031 1.000000 
+Inference[2]: Time 0.381498 GAMMA-based likelihood -3831.155061, best rearrangement setting 5
+alpha[0]: 0.223618 rates[0] ac ag at cg ct gt: 0.708577 3.641289 0.304162 2.262974 3.091265 1.000000 
+Inference[3]: Time 0.291373 GAMMA-based likelihood -3831.158995, best rearrangement setting 5
+alpha[0]: 0.223583 rates[0] ac ag at cg ct gt: 0.724264 3.717228 0.309806 2.313837 3.166542 1.000000 
+Inference[4]: Time 0.290946 GAMMA-based likelihood -3831.160584, best rearrangement setting 5
+alpha[0]: 0.223492 rates[0] ac ag at cg ct gt: 0.726349 3.742293 0.310767 2.317529 3.171771 1.000000 
+Inference[5]: Time 0.292524 GAMMA-based likelihood -3831.159274, best rearrangement setting 5
+alpha[0]: 0.223605 rates[0] ac ag at cg ct gt: 0.724512 3.718778 0.313272 2.316970 3.168653 1.000000 
+Inference[6]: Time 0.303776 GAMMA-based likelihood -3833.335083, best rearrangement setting 5
+alpha[0]: 0.219529 rates[0] ac ag at cg ct gt: 0.728892 3.643647 0.307118 2.379002 3.187618 1.000000 
+Inference[7]: Time 0.292780 GAMMA-based likelihood -3831.156070, best rearrangement setting 5
+alpha[0]: 0.223645 rates[0] ac ag at cg ct gt: 0.717239 3.682870 0.309039 2.292268 3.131960 1.000000 
+Inference[8]: Time 0.291934 GAMMA-based likelihood -3831.155648, best rearrangement setting 5
+alpha[0]: 0.223629 rates[0] ac ag at cg ct gt: 0.713244 3.676279 0.307463 2.284433 3.112141 1.000000 
+Inference[9]: Time 0.309975 GAMMA-based likelihood -3833.335322, best rearrangement setting 5
+alpha[0]: 0.219513 rates[0] ac ag at cg ct gt: 0.731028 3.655868 0.309064 2.386176 3.196708 1.000000 
+Inference[10]: Time 0.301749 GAMMA-based likelihood -3831.155215, best rearrangement setting 5
+alpha[0]: 0.223654 rates[0] ac ag at cg ct gt: 0.713355 3.664731 0.306532 2.278019 3.111699 1.000000 
+Inference[11]: Time 0.293588 GAMMA-based likelihood -3831.157260, best rearrangement setting 5
+alpha[0]: 0.223632 rates[0] ac ag at cg ct gt: 0.720503 3.699033 0.310965 2.304037 3.148060 1.000000 
+Inference[12]: Time 0.301787 GAMMA-based likelihood -3833.335066, best rearrangement setting 5
+alpha[0]: 0.219552 rates[0] ac ag at cg ct gt: 0.728639 3.640778 0.307692 2.380165 3.187952 1.000000 
+Inference[13]: Time 0.291245 GAMMA-based likelihood -3831.161360, best rearrangement setting 5
+alpha[0]: 0.223553 rates[0] ac ag at cg ct gt: 0.729427 3.743343 0.314451 2.327355 3.183551 1.000000 
+Inference[14]: Time 0.296761 GAMMA-based likelihood -3831.155408, best rearrangement setting 5
+alpha[0]: 0.223632 rates[0] ac ag at cg ct gt: 0.714440 3.673077 0.307515 2.280475 3.115503 1.000000 
+Inference[15]: Time 0.303512 GAMMA-based likelihood -3833.337132, best rearrangement setting 5
+alpha[0]: 0.219499 rates[0] ac ag at cg ct gt: 0.737202 3.682947 0.309741 2.413212 3.228767 1.000000 
+Inference[16]: Time 0.298607 GAMMA-based likelihood -3831.155516, best rearrangement setting 5
+alpha[0]: 0.223622 rates[0] ac ag at cg ct gt: 0.712013 3.662424 0.303629 2.269821 3.096017 1.000000 
+Inference[17]: Time 0.304539 GAMMA-based likelihood -3833.335464, best rearrangement setting 5
+alpha[0]: 0.219509 rates[0] ac ag at cg ct gt: 0.732137 3.660413 0.309654 2.389554 3.201249 1.000000 
+Inference[18]: Time 0.303322 GAMMA-based likelihood -3833.335293, best rearrangement setting 5
+alpha[0]: 0.219515 rates[0] ac ag at cg ct gt: 0.730690 3.654809 0.308970 2.385948 3.195911 1.000000 
+Inference[19]: Time 0.292587 GAMMA-based likelihood -3831.155407, best rearrangement setting 5
+alpha[0]: 0.223644 rates[0] ac ag at cg ct gt: 0.712635 3.667680 0.306976 2.277684 3.103536 1.000000 
+
+
+Conducting final model optimizations on all 20 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.0
+Inference[1] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.1
+Inference[2] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.2
+Inference[3] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.3
+Inference[4] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.4
+Inference[5] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.5
+Inference[6] final GAMMA-based Likelihood: -3833.400536 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.6
+Inference[7] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.7
+Inference[8] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.8
+Inference[9] final GAMMA-based Likelihood: -3833.400536 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.9
+Inference[10] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.10
+Inference[11] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.11
+Inference[12] final GAMMA-based Likelihood: -3833.400536 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.12
+Inference[13] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.13
+Inference[14] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.14
+Inference[15] final GAMMA-based Likelihood: -3833.400536 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.15
+Inference[16] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.16
+Inference[17] final GAMMA-based Likelihood: -3833.400536 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.17
+Inference[18] final GAMMA-based Likelihood: -3833.400536 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.18
+Inference[19] final GAMMA-based Likelihood: -3831.155314 tree written to file /home/tgessler/Final_Project/Alignments/RAxML_result.T1.RUN.19
+
+
+Starting final GAMMA-based thorough Optimization on tree 2 likelihood -3831.155314 .... 
+
+Final GAMMA-based Score of best tree -3831.155316
+
+Program execution info written to /home/tgessler/Final_Project/Alignments/RAxML_info.T1
+Best-scoring ML tree written to: /home/tgessler/Final_Project/Alignments/RAxML_bestTree.T1
+
+Overall execution time: 6.281164 secs or 0.001745 hours or 0.000073 days
+

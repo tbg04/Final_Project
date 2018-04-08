@@ -1,0 +1,626 @@
+
+   Module name: openmpi                    Version: 3.0.0               
+
+       Contact: researchit@iastate.edu
+      Homepage: http://www.open-mpi.org/                                
+      Download: http://www.open-mpi.org/software/                       
+          Help: Documentation is available online at http://www.open-mpi.org or as a set of UNIX man pages.
+         Notes: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available.
+
+
+   Module name: raxml                      Version: 8.2.9               
+
+       Contact: researchit@iastate.edu
+      Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html
+      Download: https://github.com/stamatak/standard-RAxML              
+          Help: Documentation can be found online at http://sco.h-its.org/exelixis/web/software/raxml/index.html#documentation.
+         Notes: RAxML (Randomized Axelerated Maximum Likelihood) is a program for sequential and parallel Maximum Likelihood based inference of large phylogenetic trees. It can also be used for post-analysis of sets of phylogenetic trees, analysis of alignments and, evolutionary placement of short reads. This module contains the mpi executables along with the pthread executables. They are named accordingly.
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 4
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 5
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 3
+
+This is RAxML Worker Pthread Number: 6
+
+This is RAxML Worker Pthread Number: 7
+
+This is RAxML Worker Pthread Number: 8
+
+This is RAxML Worker Pthread Number: 11
+
+This is RAxML Worker Pthread Number: 9
+
+This is RAxML Worker Pthread Number: 12
+
+This is RAxML Worker Pthread Number: 10
+
+This is RAxML Worker Pthread Number: 13
+
+This is RAxML Worker Pthread Number: 15
+
+This is RAxML Worker Pthread Number: 14
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 306 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.54%
+
+RAxML rapid hill-climbing mode
+
+Using 2 distinct models/data partitions with joint branch length optimization
+
+
+Executing 250 inferences on the original alignment using 250 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 113
+Name: p1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 193
+Name: p2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 16 -o AllMis,GalGal -m GTRGAMMA -p 52657 -s NR5A1_TurtCrocChick_Aligned.phylip -q partition.txt -# 250 -n SF1.T1 
+
+
+Partition: 0 with name: p1
+Base frequencies: 0.310 0.246 0.226 0.218 
+
+Partition: 1 with name: p2
+Base frequencies: 0.091 0.411 0.390 0.108 
+
+Inference[0]: Time 0.638730 GAMMA-based likelihood -5009.081487, best rearrangement setting 5
+Inference[1]: Time 0.526350 GAMMA-based likelihood -5009.081688, best rearrangement setting 5
+Inference[2]: Time 0.490308 GAMMA-based likelihood -5009.081770, best rearrangement setting 5
+Inference[3]: Time 0.488493 GAMMA-based likelihood -5009.081804, best rearrangement setting 5
+Inference[4]: Time 0.553842 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+Inference[5]: Time 0.497983 GAMMA-based likelihood -5009.081721, best rearrangement setting 5
+Inference[6]: Time 0.479953 GAMMA-based likelihood -5009.082062, best rearrangement setting 5
+Inference[7]: Time 0.504419 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+Inference[8]: Time 0.486526 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+Inference[9]: Time 0.496759 GAMMA-based likelihood -5009.081341, best rearrangement setting 5
+Inference[10]: Time 0.499720 GAMMA-based likelihood -5009.081594, best rearrangement setting 5
+Inference[11]: Time 0.512374 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+Inference[12]: Time 0.504464 GAMMA-based likelihood -5009.081775, best rearrangement setting 5
+Inference[13]: Time 0.493015 GAMMA-based likelihood -5009.081556, best rearrangement setting 5
+Inference[14]: Time 0.596351 GAMMA-based likelihood -5009.081982, best rearrangement setting 5
+Inference[15]: Time 0.487851 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+Inference[16]: Time 0.489288 GAMMA-based likelihood -5009.081309, best rearrangement setting 5
+Inference[17]: Time 0.487552 GAMMA-based likelihood -5009.081584, best rearrangement setting 5
+Inference[18]: Time 0.497065 GAMMA-based likelihood -5009.081475, best rearrangement setting 5
+Inference[19]: Time 0.480500 GAMMA-based likelihood -5009.081872, best rearrangement setting 5
+Inference[20]: Time 0.554460 GAMMA-based likelihood -5009.081845, best rearrangement setting 5
+Inference[21]: Time 0.488099 GAMMA-based likelihood -5009.081861, best rearrangement setting 5
+Inference[22]: Time 0.533613 GAMMA-based likelihood -5009.081637, best rearrangement setting 5
+Inference[23]: Time 0.475912 GAMMA-based likelihood -5009.081522, best rearrangement setting 5
+Inference[24]: Time 0.479578 GAMMA-based likelihood -5009.081934, best rearrangement setting 5
+Inference[25]: Time 0.460596 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+Inference[26]: Time 0.483399 GAMMA-based likelihood -5009.081615, best rearrangement setting 5
+Inference[27]: Time 0.526491 GAMMA-based likelihood -5009.081796, best rearrangement setting 5
+Inference[28]: Time 0.491989 GAMMA-based likelihood -5009.081778, best rearrangement setting 5
+Inference[29]: Time 0.552331 GAMMA-based likelihood -5009.081809, best rearrangement setting 5
+Inference[30]: Time 0.549026 GAMMA-based likelihood -5009.081460, best rearrangement setting 5
+Inference[31]: Time 0.515154 GAMMA-based likelihood -5009.081688, best rearrangement setting 5
+Inference[32]: Time 0.511818 GAMMA-based likelihood -5009.081991, best rearrangement setting 5
+Inference[33]: Time 0.501927 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+Inference[34]: Time 0.488211 GAMMA-based likelihood -5009.081857, best rearrangement setting 5
+Inference[35]: Time 0.576211 GAMMA-based likelihood -5009.081591, best rearrangement setting 5
+Inference[36]: Time 0.645276 GAMMA-based likelihood -5009.081679, best rearrangement setting 5
+Inference[37]: Time 0.484234 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+Inference[38]: Time 0.549259 GAMMA-based likelihood -5009.081982, best rearrangement setting 5
+Inference[39]: Time 0.503798 GAMMA-based likelihood -5009.081679, best rearrangement setting 5
+Inference[40]: Time 0.506282 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+Inference[41]: Time 0.488654 GAMMA-based likelihood -5009.081845, best rearrangement setting 5
+Inference[42]: Time 0.508212 GAMMA-based likelihood -5009.081770, best rearrangement setting 5
+Inference[43]: Time 0.483579 GAMMA-based likelihood -5009.081545, best rearrangement setting 5
+Inference[44]: Time 0.578960 GAMMA-based likelihood -5009.081807, best rearrangement setting 5
+Inference[45]: Time 0.480608 GAMMA-based likelihood -5009.081556, best rearrangement setting 5
+Inference[46]: Time 0.505422 GAMMA-based likelihood -5009.081479, best rearrangement setting 5
+Inference[47]: Time 0.498822 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+Inference[48]: Time 0.481526 GAMMA-based likelihood -5009.081452, best rearrangement setting 5
+Inference[49]: Time 0.494884 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+Inference[50]: Time 0.544782 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+Inference[51]: Time 0.505008 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+Inference[52]: Time 0.488605 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+Inference[53]: Time 0.496913 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+Inference[54]: Time 0.547091 GAMMA-based likelihood -5009.081892, best rearrangement setting 5
+Inference[55]: Time 0.508809 GAMMA-based likelihood -5009.081452, best rearrangement setting 5
+Inference[56]: Time 0.476390 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+Inference[57]: Time 0.479206 GAMMA-based likelihood -5009.081592, best rearrangement setting 5
+Inference[58]: Time 0.619757 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+Inference[59]: Time 0.587611 GAMMA-based likelihood -5009.081512, best rearrangement setting 5
+Inference[60]: Time 0.521291 GAMMA-based likelihood -5009.081446, best rearrangement setting 5
+Inference[61]: Time 0.518380 GAMMA-based likelihood -5009.081421, best rearrangement setting 5
+Inference[62]: Time 0.550549 GAMMA-based likelihood -5009.081663, best rearrangement setting 5
+Inference[63]: Time 0.500635 GAMMA-based likelihood -5009.081460, best rearrangement setting 5
+Inference[64]: Time 0.479933 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+Inference[65]: Time 0.465677 GAMMA-based likelihood -5009.081805, best rearrangement setting 5
+Inference[66]: Time 0.551438 GAMMA-based likelihood -5009.081478, best rearrangement setting 5
+Inference[67]: Time 0.542883 GAMMA-based likelihood -5009.081605, best rearrangement setting 5
+Inference[68]: Time 0.498929 GAMMA-based likelihood -5009.081709, best rearrangement setting 5
+Inference[69]: Time 0.522393 GAMMA-based likelihood -5009.081608, best rearrangement setting 5
+Inference[70]: Time 0.518172 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+Inference[71]: Time 0.515623 GAMMA-based likelihood -5009.081683, best rearrangement setting 5
+Inference[72]: Time 0.502197 GAMMA-based likelihood -5009.081807, best rearrangement setting 5
+Inference[73]: Time 0.479215 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+Inference[74]: Time 0.487418 GAMMA-based likelihood -5009.081815, best rearrangement setting 5
+Inference[75]: Time 0.518970 GAMMA-based likelihood -5009.081832, best rearrangement setting 5
+Inference[76]: Time 0.483670 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+Inference[77]: Time 0.476537 GAMMA-based likelihood -5009.081852, best rearrangement setting 5
+Inference[78]: Time 0.541721 GAMMA-based likelihood -5009.081637, best rearrangement setting 5
+Inference[79]: Time 0.530403 GAMMA-based likelihood -5009.082062, best rearrangement setting 5
+Inference[80]: Time 0.510035 GAMMA-based likelihood -5009.081824, best rearrangement setting 5
+Inference[81]: Time 0.475384 GAMMA-based likelihood -5009.081829, best rearrangement setting 5
+Inference[82]: Time 0.499126 GAMMA-based likelihood -5009.081861, best rearrangement setting 5
+Inference[83]: Time 0.517585 GAMMA-based likelihood -5009.082068, best rearrangement setting 5
+Inference[84]: Time 0.488946 GAMMA-based likelihood -5009.081429, best rearrangement setting 5
+Inference[85]: Time 0.556140 GAMMA-based likelihood -5009.081341, best rearrangement setting 5
+Inference[86]: Time 0.470837 GAMMA-based likelihood -5009.081543, best rearrangement setting 5
+Inference[87]: Time 0.506099 GAMMA-based likelihood -5009.081693, best rearrangement setting 5
+Inference[88]: Time 0.480522 GAMMA-based likelihood -5009.081888, best rearrangement setting 5
+Inference[89]: Time 0.507280 GAMMA-based likelihood -5009.081766, best rearrangement setting 5
+Inference[90]: Time 0.494647 GAMMA-based likelihood -5009.081938, best rearrangement setting 5
+Inference[91]: Time 0.554928 GAMMA-based likelihood -5009.081603, best rearrangement setting 5
+Inference[92]: Time 0.497256 GAMMA-based likelihood -5009.082103, best rearrangement setting 5
+Inference[93]: Time 0.490946 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+Inference[94]: Time 0.482322 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+Inference[95]: Time 0.472349 GAMMA-based likelihood -5009.081831, best rearrangement setting 5
+Inference[96]: Time 0.496470 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+Inference[97]: Time 0.513773 GAMMA-based likelihood -5009.081767, best rearrangement setting 5
+Inference[98]: Time 0.499603 GAMMA-based likelihood -5009.081917, best rearrangement setting 5
+Inference[99]: Time 0.517955 GAMMA-based likelihood -5009.081599, best rearrangement setting 5
+Inference[100]: Time 0.521473 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+Inference[101]: Time 0.478395 GAMMA-based likelihood -5009.081564, best rearrangement setting 5
+Inference[102]: Time 0.489025 GAMMA-based likelihood -5009.081766, best rearrangement setting 5
+Inference[103]: Time 0.488953 GAMMA-based likelihood -5009.081609, best rearrangement setting 5
+Inference[104]: Time 0.517479 GAMMA-based likelihood -5009.081842, best rearrangement setting 5
+Inference[105]: Time 0.561785 GAMMA-based likelihood -5009.081554, best rearrangement setting 5
+Inference[106]: Time 0.527454 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+Inference[107]: Time 0.533815 GAMMA-based likelihood -5009.081547, best rearrangement setting 5
+Inference[108]: Time 0.523043 GAMMA-based likelihood -5009.081731, best rearrangement setting 5
+Inference[109]: Time 0.541390 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+Inference[110]: Time 0.489330 GAMMA-based likelihood -5009.081726, best rearrangement setting 5
+Inference[111]: Time 0.518688 GAMMA-based likelihood -5009.081480, best rearrangement setting 5
+Inference[112]: Time 0.482598 GAMMA-based likelihood -5009.081584, best rearrangement setting 5
+Inference[113]: Time 0.485793 GAMMA-based likelihood -5009.081861, best rearrangement setting 5
+Inference[114]: Time 0.512654 GAMMA-based likelihood -5009.081938, best rearrangement setting 5
+Inference[115]: Time 0.487560 GAMMA-based likelihood -5009.081736, best rearrangement setting 5
+Inference[116]: Time 0.462813 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+Inference[117]: Time 0.740534 GAMMA-based likelihood -5009.081849, best rearrangement setting 5
+Inference[118]: Time 0.461735 GAMMA-based likelihood -5009.081469, best rearrangement setting 5
+Inference[119]: Time 0.540656 GAMMA-based likelihood -5009.081350, best rearrangement setting 5
+Inference[120]: Time 0.469466 GAMMA-based likelihood -5009.081954, best rearrangement setting 5
+Inference[121]: Time 0.497210 GAMMA-based likelihood -5009.081757, best rearrangement setting 5
+Inference[122]: Time 0.489160 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+Inference[123]: Time 0.468869 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+Inference[124]: Time 0.495562 GAMMA-based likelihood -5009.081666, best rearrangement setting 5
+Inference[125]: Time 0.499315 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+Inference[126]: Time 0.476215 GAMMA-based likelihood -5009.081565, best rearrangement setting 5
+Inference[127]: Time 0.509918 GAMMA-based likelihood -5009.081371, best rearrangement setting 5
+Inference[128]: Time 0.498245 GAMMA-based likelihood -5009.081151, best rearrangement setting 5
+Inference[129]: Time 0.488255 GAMMA-based likelihood -5009.081371, best rearrangement setting 5
+Inference[130]: Time 0.522034 GAMMA-based likelihood -5009.081952, best rearrangement setting 5
+Inference[131]: Time 0.480839 GAMMA-based likelihood -5009.081429, best rearrangement setting 5
+Inference[132]: Time 0.497083 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+Inference[133]: Time 0.485593 GAMMA-based likelihood -5009.081983, best rearrangement setting 5
+Inference[134]: Time 0.472007 GAMMA-based likelihood -5009.081330, best rearrangement setting 5
+Inference[135]: Time 0.501056 GAMMA-based likelihood -5009.081754, best rearrangement setting 5
+Inference[136]: Time 0.486147 GAMMA-based likelihood -5009.081809, best rearrangement setting 5
+Inference[137]: Time 0.504311 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+Inference[138]: Time 0.512864 GAMMA-based likelihood -5009.081543, best rearrangement setting 5
+Inference[139]: Time 0.496418 GAMMA-based likelihood -5009.081872, best rearrangement setting 5
+Inference[140]: Time 0.498282 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+Inference[141]: Time 0.485307 GAMMA-based likelihood -5009.081412, best rearrangement setting 5
+Inference[142]: Time 0.529507 GAMMA-based likelihood -5009.081396, best rearrangement setting 5
+Inference[143]: Time 0.507325 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+Inference[144]: Time 0.480285 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+Inference[145]: Time 0.536152 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+Inference[146]: Time 0.466411 GAMMA-based likelihood -5009.081660, best rearrangement setting 5
+Inference[147]: Time 0.472764 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+Inference[148]: Time 0.472754 GAMMA-based likelihood -5009.081767, best rearrangement setting 5
+Inference[149]: Time 0.470304 GAMMA-based likelihood -5009.081773, best rearrangement setting 5
+Inference[150]: Time 0.576954 GAMMA-based likelihood -5009.081397, best rearrangement setting 5
+Inference[151]: Time 0.476606 GAMMA-based likelihood -5009.081970, best rearrangement setting 5
+Inference[152]: Time 0.537459 GAMMA-based likelihood -5009.081938, best rearrangement setting 5
+Inference[153]: Time 0.502581 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+Inference[154]: Time 0.478838 GAMMA-based likelihood -5009.082046, best rearrangement setting 5
+Inference[155]: Time 0.493957 GAMMA-based likelihood -5009.081421, best rearrangement setting 5
+Inference[156]: Time 0.480196 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+Inference[157]: Time 0.490624 GAMMA-based likelihood -5009.081350, best rearrangement setting 5
+Inference[158]: Time 0.523756 GAMMA-based likelihood -5009.081688, best rearrangement setting 5
+Inference[159]: Time 0.482055 GAMMA-based likelihood -5009.081820, best rearrangement setting 5
+Inference[160]: Time 0.527496 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+Inference[161]: Time 0.490662 GAMMA-based likelihood -5009.081617, best rearrangement setting 5
+Inference[162]: Time 0.495016 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+Inference[163]: Time 0.505382 GAMMA-based likelihood -5009.081634, best rearrangement setting 5
+Inference[164]: Time 0.507527 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+Inference[165]: Time 0.568172 GAMMA-based likelihood -5009.081539, best rearrangement setting 5
+Inference[166]: Time 0.484527 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+Inference[167]: Time 0.492084 GAMMA-based likelihood -5009.081395, best rearrangement setting 5
+Inference[168]: Time 0.546445 GAMMA-based likelihood -5009.081339, best rearrangement setting 5
+Inference[169]: Time 0.526549 GAMMA-based likelihood -5009.081736, best rearrangement setting 5
+Inference[170]: Time 0.489552 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+Inference[171]: Time 0.499226 GAMMA-based likelihood -5009.082053, best rearrangement setting 5
+Inference[172]: Time 0.506814 GAMMA-based likelihood -5009.081357, best rearrangement setting 5
+Inference[173]: Time 0.509052 GAMMA-based likelihood -5009.081930, best rearrangement setting 5
+Inference[174]: Time 0.493879 GAMMA-based likelihood -5009.081929, best rearrangement setting 5
+Inference[175]: Time 0.696817 GAMMA-based likelihood -5009.081689, best rearrangement setting 5
+Inference[176]: Time 0.515379 GAMMA-based likelihood -5009.081812, best rearrangement setting 5
+Inference[177]: Time 0.488148 GAMMA-based likelihood -5009.081699, best rearrangement setting 5
+Inference[178]: Time 0.485931 GAMMA-based likelihood -5009.081479, best rearrangement setting 5
+Inference[179]: Time 0.499350 GAMMA-based likelihood -5009.081683, best rearrangement setting 5
+Inference[180]: Time 0.489856 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+Inference[181]: Time 0.524255 GAMMA-based likelihood -5009.081511, best rearrangement setting 5
+Inference[182]: Time 0.499469 GAMMA-based likelihood -5009.081690, best rearrangement setting 5
+Inference[183]: Time 0.548780 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+Inference[184]: Time 0.490719 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+Inference[185]: Time 0.490529 GAMMA-based likelihood -5009.081729, best rearrangement setting 5
+Inference[186]: Time 0.531230 GAMMA-based likelihood -5009.081797, best rearrangement setting 5
+Inference[187]: Time 0.494919 GAMMA-based likelihood -5009.081467, best rearrangement setting 5
+Inference[188]: Time 0.494344 GAMMA-based likelihood -5009.081798, best rearrangement setting 5
+Inference[189]: Time 0.494379 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+Inference[190]: Time 0.511218 GAMMA-based likelihood -5009.081672, best rearrangement setting 5
+Inference[191]: Time 0.534851 GAMMA-based likelihood -5009.081654, best rearrangement setting 5
+Inference[192]: Time 0.545074 GAMMA-based likelihood -5009.081412, best rearrangement setting 5
+Inference[193]: Time 0.508012 GAMMA-based likelihood -5009.081609, best rearrangement setting 5
+Inference[194]: Time 0.540787 GAMMA-based likelihood -5009.081534, best rearrangement setting 5
+Inference[195]: Time 0.533944 GAMMA-based likelihood -5009.081666, best rearrangement setting 5
+Inference[196]: Time 0.488287 GAMMA-based likelihood -5009.081739, best rearrangement setting 5
+Inference[197]: Time 0.493073 GAMMA-based likelihood -5009.081857, best rearrangement setting 5
+Inference[198]: Time 0.488998 GAMMA-based likelihood -5009.081479, best rearrangement setting 5
+Inference[199]: Time 0.514085 GAMMA-based likelihood -5009.081954, best rearrangement setting 5
+Inference[200]: Time 0.511251 GAMMA-based likelihood -5009.081689, best rearrangement setting 5
+Inference[201]: Time 0.518257 GAMMA-based likelihood -5009.081709, best rearrangement setting 5
+Inference[202]: Time 0.496401 GAMMA-based likelihood -5009.081584, best rearrangement setting 5
+Inference[203]: Time 0.520489 GAMMA-based likelihood -5009.081885, best rearrangement setting 5
+Inference[204]: Time 0.479203 GAMMA-based likelihood -5009.081536, best rearrangement setting 5
+Inference[205]: Time 0.477076 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+Inference[206]: Time 0.480252 GAMMA-based likelihood -5009.081813, best rearrangement setting 5
+Inference[207]: Time 0.497782 GAMMA-based likelihood -5009.081991, best rearrangement setting 5
+Inference[208]: Time 0.524232 GAMMA-based likelihood -5009.081773, best rearrangement setting 5
+Inference[209]: Time 0.506904 GAMMA-based likelihood -5009.081897, best rearrangement setting 5
+Inference[210]: Time 0.490323 GAMMA-based likelihood -5009.081652, best rearrangement setting 5
+Inference[211]: Time 0.482151 GAMMA-based likelihood -5009.081726, best rearrangement setting 5
+Inference[212]: Time 0.479477 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+Inference[213]: Time 0.503617 GAMMA-based likelihood -5009.081633, best rearrangement setting 5
+Inference[214]: Time 0.473098 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+Inference[215]: Time 0.466234 GAMMA-based likelihood -5009.081460, best rearrangement setting 5
+Inference[216]: Time 0.520053 GAMMA-based likelihood -5009.081506, best rearrangement setting 5
+Inference[217]: Time 0.478085 GAMMA-based likelihood -5009.081832, best rearrangement setting 5
+Inference[218]: Time 0.486384 GAMMA-based likelihood -5009.081796, best rearrangement setting 5
+Inference[219]: Time 0.551167 GAMMA-based likelihood -5009.081788, best rearrangement setting 5
+Inference[220]: Time 0.506582 GAMMA-based likelihood -5009.081554, best rearrangement setting 5
+Inference[221]: Time 0.489945 GAMMA-based likelihood -5009.081550, best rearrangement setting 5
+Inference[222]: Time 0.498318 GAMMA-based likelihood -5009.082068, best rearrangement setting 5
+Inference[223]: Time 0.498187 GAMMA-based likelihood -5009.081564, best rearrangement setting 5
+Inference[224]: Time 0.554633 GAMMA-based likelihood -5009.081757, best rearrangement setting 5
+Inference[225]: Time 0.479905 GAMMA-based likelihood -5009.081805, best rearrangement setting 5
+Inference[226]: Time 0.476314 GAMMA-based likelihood -5009.081513, best rearrangement setting 5
+Inference[227]: Time 0.536165 GAMMA-based likelihood -5009.081733, best rearrangement setting 5
+Inference[228]: Time 0.554536 GAMMA-based likelihood -5009.081592, best rearrangement setting 5
+Inference[229]: Time 0.511713 GAMMA-based likelihood -5009.081751, best rearrangement setting 5
+Inference[230]: Time 0.491036 GAMMA-based likelihood -5009.081532, best rearrangement setting 5
+Inference[231]: Time 0.490924 GAMMA-based likelihood -5009.081698, best rearrangement setting 5
+Inference[232]: Time 0.526932 GAMMA-based likelihood -5009.081641, best rearrangement setting 5
+Inference[233]: Time 0.575034 GAMMA-based likelihood -5009.081374, best rearrangement setting 5
+Inference[234]: Time 0.496554 GAMMA-based likelihood -5009.081766, best rearrangement setting 5
+Inference[235]: Time 0.478789 GAMMA-based likelihood -5009.081824, best rearrangement setting 5
+Inference[236]: Time 0.496029 GAMMA-based likelihood -5009.081521, best rearrangement setting 5
+Inference[237]: Time 0.530255 GAMMA-based likelihood -5009.081214, best rearrangement setting 5
+Inference[238]: Time 0.522217 GAMMA-based likelihood -5009.081674, best rearrangement setting 5
+Inference[239]: Time 0.503539 GAMMA-based likelihood -5009.081615, best rearrangement setting 5
+Inference[240]: Time 0.515964 GAMMA-based likelihood -5009.082047, best rearrangement setting 5
+Inference[241]: Time 0.508037 GAMMA-based likelihood -5009.081779, best rearrangement setting 5
+Inference[242]: Time 0.517458 GAMMA-based likelihood -5009.081566, best rearrangement setting 5
+Inference[243]: Time 0.527678 GAMMA-based likelihood -5009.082062, best rearrangement setting 5
+Inference[244]: Time 0.498134 GAMMA-based likelihood -5009.081606, best rearrangement setting 5
+Inference[245]: Time 0.496497 GAMMA-based likelihood -5009.081752, best rearrangement setting 5
+Inference[246]: Time 0.500929 GAMMA-based likelihood -5009.081611, best rearrangement setting 5
+Inference[247]: Time 0.495958 GAMMA-based likelihood -5009.081954, best rearrangement setting 5
+Inference[248]: Time 0.497250 GAMMA-based likelihood -5009.081640, best rearrangement setting 5
+Inference[249]: Time 0.504486 GAMMA-based likelihood -5009.081739, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 250 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.0
+Inference[1] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.1
+Inference[2] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.2
+Inference[3] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.3
+Inference[4] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.4
+Inference[5] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.5
+Inference[6] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.6
+Inference[7] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.7
+Inference[8] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.8
+Inference[9] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.9
+Inference[10] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.10
+Inference[11] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.11
+Inference[12] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.12
+Inference[13] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.13
+Inference[14] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.14
+Inference[15] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.15
+Inference[16] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.16
+Inference[17] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.17
+Inference[18] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.18
+Inference[19] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.19
+Inference[20] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.20
+Inference[21] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.21
+Inference[22] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.22
+Inference[23] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.23
+Inference[24] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.24
+Inference[25] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.25
+Inference[26] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.26
+Inference[27] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.27
+Inference[28] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.28
+Inference[29] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.29
+Inference[30] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.30
+Inference[31] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.31
+Inference[32] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.32
+Inference[33] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.33
+Inference[34] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.34
+Inference[35] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.35
+Inference[36] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.36
+Inference[37] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.37
+Inference[38] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.38
+Inference[39] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.39
+Inference[40] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.40
+Inference[41] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.41
+Inference[42] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.42
+Inference[43] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.43
+Inference[44] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.44
+Inference[45] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.45
+Inference[46] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.46
+Inference[47] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.47
+Inference[48] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.48
+Inference[49] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.49
+Inference[50] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.50
+Inference[51] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.51
+Inference[52] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.52
+Inference[53] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.53
+Inference[54] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.54
+Inference[55] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.55
+Inference[56] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.56
+Inference[57] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.57
+Inference[58] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.58
+Inference[59] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.59
+Inference[60] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.60
+Inference[61] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.61
+Inference[62] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.62
+Inference[63] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.63
+Inference[64] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.64
+Inference[65] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.65
+Inference[66] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.66
+Inference[67] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.67
+Inference[68] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.68
+Inference[69] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.69
+Inference[70] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.70
+Inference[71] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.71
+Inference[72] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.72
+Inference[73] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.73
+Inference[74] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.74
+Inference[75] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.75
+Inference[76] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.76
+Inference[77] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.77
+Inference[78] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.78
+Inference[79] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.79
+Inference[80] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.80
+Inference[81] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.81
+Inference[82] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.82
+Inference[83] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.83
+Inference[84] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.84
+Inference[85] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.85
+Inference[86] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.86
+Inference[87] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.87
+Inference[88] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.88
+Inference[89] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.89
+Inference[90] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.90
+Inference[91] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.91
+Inference[92] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.92
+Inference[93] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.93
+Inference[94] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.94
+Inference[95] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.95
+Inference[96] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.96
+Inference[97] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.97
+Inference[98] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.98
+Inference[99] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.99
+Inference[100] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.100
+Inference[101] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.101
+Inference[102] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.102
+Inference[103] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.103
+Inference[104] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.104
+Inference[105] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.105
+Inference[106] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.106
+Inference[107] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.107
+Inference[108] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.108
+Inference[109] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.109
+Inference[110] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.110
+Inference[111] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.111
+Inference[112] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.112
+Inference[113] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.113
+Inference[114] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.114
+Inference[115] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.115
+Inference[116] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.116
+Inference[117] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.117
+Inference[118] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.118
+Inference[119] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.119
+Inference[120] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.120
+Inference[121] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.121
+Inference[122] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.122
+Inference[123] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.123
+Inference[124] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.124
+Inference[125] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.125
+Inference[126] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.126
+Inference[127] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.127
+Inference[128] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.128
+Inference[129] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.129
+Inference[130] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.130
+Inference[131] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.131
+Inference[132] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.132
+Inference[133] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.133
+Inference[134] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.134
+Inference[135] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.135
+Inference[136] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.136
+Inference[137] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.137
+Inference[138] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.138
+Inference[139] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.139
+Inference[140] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.140
+Inference[141] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.141
+Inference[142] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.142
+Inference[143] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.143
+Inference[144] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.144
+Inference[145] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.145
+Inference[146] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.146
+Inference[147] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.147
+Inference[148] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.148
+Inference[149] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.149
+Inference[150] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.150
+Inference[151] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.151
+Inference[152] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.152
+Inference[153] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.153
+Inference[154] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.154
+Inference[155] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.155
+Inference[156] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.156
+Inference[157] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.157
+Inference[158] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.158
+Inference[159] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.159
+Inference[160] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.160
+Inference[161] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.161
+Inference[162] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.162
+Inference[163] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.163
+Inference[164] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.164
+Inference[165] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.165
+Inference[166] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.166
+Inference[167] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.167
+Inference[168] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.168
+Inference[169] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.169
+Inference[170] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.170
+Inference[171] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.171
+Inference[172] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.172
+Inference[173] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.173
+Inference[174] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.174
+Inference[175] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.175
+Inference[176] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.176
+Inference[177] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.177
+Inference[178] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.178
+Inference[179] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.179
+Inference[180] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.180
+Inference[181] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.181
+Inference[182] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.182
+Inference[183] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.183
+Inference[184] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.184
+Inference[185] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.185
+Inference[186] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.186
+Inference[187] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.187
+Inference[188] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.188
+Inference[189] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.189
+Inference[190] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.190
+Inference[191] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.191
+Inference[192] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.192
+Inference[193] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.193
+Inference[194] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.194
+Inference[195] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.195
+Inference[196] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.196
+Inference[197] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.197
+Inference[198] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.198
+Inference[199] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.199
+Inference[200] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.200
+Inference[201] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.201
+Inference[202] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.202
+Inference[203] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.203
+Inference[204] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.204
+Inference[205] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.205
+Inference[206] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.206
+Inference[207] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.207
+Inference[208] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.208
+Inference[209] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.209
+Inference[210] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.210
+Inference[211] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.211
+Inference[212] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.212
+Inference[213] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.213
+Inference[214] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.214
+Inference[215] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.215
+Inference[216] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.216
+Inference[217] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.217
+Inference[218] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.218
+Inference[219] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.219
+Inference[220] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.220
+Inference[221] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.221
+Inference[222] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.222
+Inference[223] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.223
+Inference[224] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.224
+Inference[225] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.225
+Inference[226] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.226
+Inference[227] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.227
+Inference[228] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.228
+Inference[229] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.229
+Inference[230] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.230
+Inference[231] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.231
+Inference[232] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.232
+Inference[233] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.233
+Inference[234] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.234
+Inference[235] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.235
+Inference[236] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.236
+Inference[237] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.237
+Inference[238] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.238
+Inference[239] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.239
+Inference[240] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.240
+Inference[241] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.241
+Inference[242] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.242
+Inference[243] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.243
+Inference[244] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.244
+Inference[245] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.245
+Inference[246] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.246
+Inference[247] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.247
+Inference[248] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.248
+Inference[249] final GAMMA-based Likelihood: -5007.562448 tree written to file /home/tgessler/Final_Project/Alignments/SF1/RAxML_result.SF1.T1.RUN.249
+
+
+Starting final GAMMA-based thorough Optimization on tree 128 likelihood -5007.562448 .... 
+
+Final GAMMA-based Score of best tree -5007.562448
+
+Program execution info written to /home/tgessler/Final_Project/Alignments/SF1/RAxML_info.SF1.T1
+Best-scoring ML tree written to: /home/tgessler/Final_Project/Alignments/SF1/RAxML_bestTree.SF1.T1
+
+Overall execution time: 135.428901 secs or 0.037619 hours or 0.001567 days
+
