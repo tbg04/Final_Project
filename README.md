@@ -1,2 +1,1 @@
-# Git repository for final project
-Promoter phylogeny of Sf1 and Wt1 in 10 turtle species
+# Alignments contains result for final project analysis. Within /Alignments are separate directories for each gene: /SF1 and /WT1
