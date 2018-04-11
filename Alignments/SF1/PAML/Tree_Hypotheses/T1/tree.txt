@@ -1,0 +1,1 @@
+(((((GlyIns #2,(ChrPic #1,TraScr #1)#1),(StaTri,CheMyd)),(CarIns,(PelSin,ApaSpi))),(PodExp,EmyMac)),(AllMis,GalGal));

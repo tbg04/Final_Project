@@ -1,0 +1,15 @@
+T0 analysis for hypothesis that all branches have the same rate
+T1 analysis for hypothesis that CPI&TSC and GIN branches each have separate rates that are distinct from the rest of the tree
+T2 analysis for hypothesis that STR and CMY branches each have separate rates that are distinct from the rest of the tree
+T3 analysis for hypothesis that CIN and PSI&ASP branches each have separate rates that are distinct from the rest ofthe tree
+T4 analysis for hypothesis that PEX and EMA branches each have separate rates that are distinct from the rest of the tree
+TN1 null for T1 results. CPI, TSC, and GIN all have a separte rate from the rest of the tree
+TN2 null for T2 results. STR and CMY all have a separate rate from the rest of the tree
+TN3 null for T3 results. CIN, PSI, and ASP all have a separate rate from the rest of the tree
+TN4 null for T4 results. PEX and EMA all have a separate rate from the rest of the tree
+CPIASP analysis for hypothesis that CPI and ASP branches each have separate rates that are distinct from the rest of the tree
+CPI null for CPIASP results. CPI and ASP all have a separate rate from the rest of the tree
+GSD analysis for hypothesis that TSD --> GSD transition branches have a separate rate from the rest of the tree
+
+
+Each directory contains a .ctl file with parameters for the codeml run, a tree.txt file which represents the hypothesis for the analysis, and a .phylip file wich contains the alignment of 10 turtles, alligator, and chicken. 

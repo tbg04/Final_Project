@@ -1,0 +1,7 @@
+1. CDS sequences for 12 species aligned in mafft --auto --phylip out
+
+2. RAxML_output contains output from runs using 10 turtles and AllMis and  Galgal as outgroups. 
+
+3. Scripts and their corresponding output files are located in the same directory as this readme file. 
+
+4. PAML is the directory containing the analysis for this project (testing hypotheses of branch evolution rate) 
